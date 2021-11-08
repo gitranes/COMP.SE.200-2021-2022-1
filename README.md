@@ -1,13 +1,27 @@
-# Student template
+# Software testing assignment
 
-## Purpose of this repository
+This is a project repository for the COMP.SE.200-2021-2022-1 Software testing
+course. This repository stores the library's source code, tests, and the
+relevant Node files for running the tests. Furthermore, this repository
+implements Travis CI with several testing related features.
 
-This is a project template for students participating in Software Testing course
-at Tampere University.
+TODO: Travis CI and Coveralls link
 
-The repository only contains the source code that is under testing, `package.json` skeleton
-and LICENSE file.
+## Setting up
 
-Source code folder contains a separate license file that must **NOT** be removed under any circumstances!
-Removing this license file directly violates terms and conditions of the software under testing.
-Individuals who remove or modify the license file will also carry the consequences.
+Prerequisites:
+  - Node.js with npm
+  - Visual Studio Code (recommended)
+
+Running npm:
+```bash
+# Set up the repository's packages
+npm install --include=dev
+
+# Run tests
+npm test
+```
+
+## Travis CI
+
+TODO
