@@ -11,13 +11,6 @@ describe('Simple isBuffer test with null', () => {
   })
 })
 
-describe('Simple isBuffer test with char', () => {
-// expect
-  it('Buffer.alloc(a)) -> true', () => {
-    expect(isBuffer(Buffer.alloc('a'))).equal(true)
-  })
-})
-
 describe('Simple isBuffer test with number', () => {
   // expect
   it('Buffer.alloc(2) -> true', () => {
