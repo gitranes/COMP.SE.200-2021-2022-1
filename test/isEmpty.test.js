@@ -13,15 +13,15 @@ describe('Simple isEmpty test with null', () => {
 
 describe('Simple isEmpty test with int', () => {
   // expect
-  it('1 -> false', () => {
-    expect(isEmpty(1)).equal(false)
+  it('1 -> true', () => {
+    expect(isEmpty(1)).equal(true)
   })
 })
 
 describe('Simple isEmpty test with bool', () => {
   // expect
-  it('true -> false', () => {
-    expect(isEmpty(1)).equal(false)
+  it('true -> true', () => {
+    expect(isEmpty(true)).equal(true)
   })
 })
 
@@ -34,8 +34,8 @@ describe('isEmpty test with map', () => {
 
 describe('isEmpty test with empty map', () => {
   // expect
-  it('{} -> false', () => {
-    expect(isEmpty({ })).equal(false)
+  it('{} -> true', () => {
+    expect(isEmpty({ })).equal(true)
   })
 })
 
@@ -48,9 +48,7 @@ describe('isEmpty test with array', () => {
 
 describe('isEmpty test with empty array', () => {
   // expect
-  it('[] -> false', () => {
+  it('[] -> true', () => {
     expect(isEmpty([])).equal(true)
   })
 })
-
-
