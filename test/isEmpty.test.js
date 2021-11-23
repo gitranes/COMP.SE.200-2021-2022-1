@@ -18,6 +18,13 @@ describe('Simple isEmpty test with int', () => {
   })
 })
 
+describe('Simple isEmpty test with char', () => {
+  // expect
+  it('a -> true', () => {
+    expect(isEmpty('a')).equal(true)
+  })
+})
+
 describe('Simple isEmpty test with bool', () => {
   // expect
   it('true -> true', () => {
