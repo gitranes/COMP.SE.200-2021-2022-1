@@ -81,7 +81,6 @@ describe('toInteger test with negative decimal string', () => {
   })
 })
 
-
 describe('toInteger test with integer string', () => {
   // expect
   it('3 -> 3', () => {
