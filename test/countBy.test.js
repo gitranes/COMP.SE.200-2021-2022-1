@@ -11,7 +11,7 @@ describe('Simple countBy test with three values', () => {
     { user: 'fred', active: false }]
 
   // expect
-  it('[],1 -> []', () => {
+  it('[{ ... }] -> {"false": 1, "true": 2}', () => {
     expect(countBy(users, value => value.active)).equal({ true: 2, false: 1 })
   })
 })
@@ -24,7 +24,7 @@ describe('Simple countBy test with four values', () => {
     { user: 'fred', active: false }]
 
   // expect
-  it('[],1 -> []', () => {
+  it('[{ ... }] -> {"false": 1, "true": 3}', () => {
     expect(countBy(users, value => value.active)).equal({ true: 3, false: 1 })
   })
 })
@@ -37,7 +37,7 @@ describe('A countBy test with four equal values', () => {
     { user: 'fred', active: true }]
 
   // expect
-  it('[],1 -> []', () => {
+  it('[{ ... }] -> {"true": 4}', () => {
     expect(countBy(users, value => value.active)).equal({ true: 4 })
   })
 })
@@ -50,7 +50,7 @@ describe('A countBy test with four values and multiple attributes', () => {
     { user: 'fred', active: false, age: 27 }]
 
   // expect
-  it('[],1 -> []', () => {
+  it('[{ ... }] -> { 30: 2, 25: 1, 27: 1 }', () => {
     expect(countBy(users, value => value.age)).equal({ 30: 2, 25: 1, 27: 1 })
   })
 })
