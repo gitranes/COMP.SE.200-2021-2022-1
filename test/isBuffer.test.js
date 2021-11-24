@@ -14,7 +14,7 @@ describe('Simple isBuffer test with null', () => {
 describe('Simple isBuffer test with number', () => {
   // expect
   it('Buffer.alloc(2) -> true', () => {
-    expect(isBuffer(Buffer.alloc(2))).equal(false)
+    expect(isBuffer(Buffer.alloc(2))).equal(true)
   })
 })
 
@@ -53,9 +53,16 @@ describe('isBuffer test with Int32Array', () => {
   })
 })
 
-describe('isBuffer test with two buffer values', () => {
+describe('isBuffer test with ones as buffer values', () => {
   // expect
-  it('10, 1 -> false', () => {
+  it('10, 1 -> true', () => {
     expect(isBuffer(Buffer.alloc(10, 1))).equal(true)
+  })
+})
+
+describe('isBuffer test with defined values', () => {
+  // expect
+  it('[1,2,3] -> true', () => {
+    expect(isBuffer(Buffer.from([1, 2, 3]))).equal(true)
   })
 })
