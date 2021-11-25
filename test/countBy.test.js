@@ -4,6 +4,15 @@ import countBy from '../src/countBy.js'
 import { expect } from 'chai'
 import { describe, it } from 'mocha'
 
+describe('Simple countBy test with empty object', () => {
+  const users = []
+
+  // expect
+  it('[] -> {}', () => {
+    expect(countBy(users, value => value.active)).to.deep.equal({})
+  })
+})
+
 describe('Simple countBy test with three values', () => {
   const users = [
     { user: 'barney', active: true },

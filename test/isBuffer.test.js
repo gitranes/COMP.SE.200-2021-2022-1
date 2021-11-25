@@ -6,12 +6,33 @@ import { describe, it } from 'mocha'
 
 describe('Simple isBuffer test with null', () => {
 // expect
+  it('null -> true', () => {
+    expect(isBuffer(null)).equal(false)
+  })
+})
+
+describe('Simple isBuffer test with allocated null', () => {
+// expect
   it('Buffer.alloc(null) -> true', () => {
     expect(isBuffer(Buffer.alloc(null))).equal(false)
   })
 })
 
-describe('Simple isBuffer test with number', () => {
+describe('Simple isBuffer test with string', () => {
+// expect
+  it('Test -> false', () => {
+    expect(isBuffer('Test')).equal(false)
+  })
+})
+
+describe('Simple isBuffer test with int', () => {
+// expect
+  it('1 -> false', () => {
+    expect(isBuffer(1)).equal(false)
+  })
+})
+
+describe('Simple isBuffer test with number in buffer', () => {
   // expect
   it('Buffer.alloc(2) -> true', () => {
     expect(isBuffer(Buffer.alloc(2))).equal(true)
