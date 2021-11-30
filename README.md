@@ -1,6 +1,10 @@
 # Software testing assignment
 
-[![Build Status](https://app.travis-ci.com/gitranes/COMP.SE.200-2021-2022-1.svg?branch=main)](https://app.travis-ci.com/gitranes/COMP.SE.200-2021-2022-1)
+[![Build Status](
+  https://app.travis-ci.com/gitranes/COMP.SE.200-2021-2022-1.svg?branch=main)
+  ](https://app.travis-ci.com/gitranes/COMP.SE.200-2021-2022-1)
+🧪📑[Full test report](https://gitranes.github.io/COMP.SE.200-2021-2022-1/)
+\
 TODO: Coveralls link
 
 This is a project repository for the COMP.SE.200-2021-2022-1 Software testing
