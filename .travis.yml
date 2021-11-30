@@ -19,3 +19,5 @@ jobs:
         token: $GITHUB_TOKEN
         local_dir: mochawesome-report
         edge: true
+        on:
+          branch: main # default is still "master" with travis CI :D
