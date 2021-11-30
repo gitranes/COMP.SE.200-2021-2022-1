@@ -11,7 +11,7 @@ describe('Simple toString test with integer', () => {
   })
 })
 
-describe('Simple toString test with decimal', () => {
+describe('Simple toString test with sign', () => {
   // expect
   it('-3 -> -3', () => {
     expect(toString(-3)).equal('-3')
