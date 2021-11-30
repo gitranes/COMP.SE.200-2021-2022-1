@@ -5,9 +5,9 @@
     "passes": 51,
     "pending": 0,
     "failures": 39,
-    "start": "2021-11-30T19:31:59.705Z",
-    "end": "2021-11-30T19:31:59.837Z",
-    "duration": 132,
+    "start": "2021-11-30T20:53:53.560Z",
+    "end": "2021-11-30T20:53:53.631Z",
+    "duration": 71,
     "testsRegistered": 90,
     "passPercent": 56.666666666666664,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "e1054434-c668-4221-b475-faf1c4660cfd",
+      "uuid": "d440d41d-626f-4242-a485-ecbd9274fca5",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "a8f87343-b609-4ce6-a10e-e01201d6d526",
+          "uuid": "c61b6124-c42c-4676-8c08-8d9776edb6b6",
           "title": "One string camel case",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
           "file": "/test/camelCase.test.js",
@@ -51,8 +51,8 @@
                 "estack": "AssertionError: expected ' hello' to equal 'hello'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:10:32)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "-  hello\n+ hello\n"
               },
-              "uuid": "fb47e629-3375-4d33-8a36-e507630804e4",
-              "parentUUID": "a8f87343-b609-4ce6-a10e-e01201d6d526",
+              "uuid": "336e8be1-e021-4720-a513-47071e9c6692",
+              "parentUUID": "c61b6124-c42c-4676-8c08-8d9776edb6b6",
               "isHook": false,
               "skipped": false
             }
@@ -60,7 +60,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "fb47e629-3375-4d33-8a36-e507630804e4"
+            "336e8be1-e021-4720-a513-47071e9c6692"
           ],
           "pending": [],
           "skipped": [],
@@ -70,7 +70,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "b28480de-2598-4d7f-8597-a4395f166e72",
+          "uuid": "224cae14-71d4-4c2a-8bc8-174cd7dfde46",
           "title": "One number camel case",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
           "file": "/test/camelCase.test.js",
@@ -94,8 +94,8 @@
                 "estack": "AssertionError: expected ' 123' to equal '123'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:17:30)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "-  123\n+ 123\n"
               },
-              "uuid": "9d480b4a-396f-4031-ac7d-9963963803ad",
-              "parentUUID": "b28480de-2598-4d7f-8597-a4395f166e72",
+              "uuid": "e74110a7-d804-42ae-975e-03fa3d8577f4",
+              "parentUUID": "224cae14-71d4-4c2a-8bc8-174cd7dfde46",
               "isHook": false,
               "skipped": false
             }
@@ -103,7 +103,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "9d480b4a-396f-4031-ac7d-9963963803ad"
+            "e74110a7-d804-42ae-975e-03fa3d8577f4"
           ],
           "pending": [],
           "skipped": [],
@@ -113,7 +113,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "0e684c40-3898-4b67-b5ef-da73893722d1",
+          "uuid": "b8835c3e-f1a9-43b0-b0a7-38a330ead653",
           "title": "From lowercase to camel case",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
           "file": "/test/camelCase.test.js",
@@ -137,8 +137,8 @@
                 "estack": "AssertionError: expected ' helloWorld' to equal 'helloWorld'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:24:38)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "-  helloWorld\n+ helloWorld\n"
               },
-              "uuid": "f17d2623-7225-4ed4-8f9b-31e311c521f8",
-              "parentUUID": "0e684c40-3898-4b67-b5ef-da73893722d1",
+              "uuid": "fbaa019d-9268-4356-b389-ea0a6b4c22e5",
+              "parentUUID": "b8835c3e-f1a9-43b0-b0a7-38a330ead653",
               "isHook": false,
               "skipped": false
             }
@@ -146,7 +146,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "f17d2623-7225-4ed4-8f9b-31e311c521f8"
+            "fbaa019d-9268-4356-b389-ea0a6b4c22e5"
           ],
           "pending": [],
           "skipped": [],
@@ -156,7 +156,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "1ce726bb-c31a-4ad3-89cf-49f3afec98f8",
+          "uuid": "31f28746-c32d-4baf-b9ec-50fa063de5c7",
           "title": "String and number to camel case",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
           "file": "/test/camelCase.test.js",
@@ -167,7 +167,7 @@
               "title": "number 2 -> number2",
               "fullTitle": "String and number to camel case number 2 -> number2",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -180,8 +180,8 @@
                 "estack": "AssertionError: expected ' number2' to equal 'number2'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:31:35)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "-  number2\n+ number2\n"
               },
-              "uuid": "dd787518-c084-43e1-994c-1ade74f808b4",
-              "parentUUID": "1ce726bb-c31a-4ad3-89cf-49f3afec98f8",
+              "uuid": "460ece77-7131-4034-9ef5-23af876db4fa",
+              "parentUUID": "31f28746-c32d-4baf-b9ec-50fa063de5c7",
               "isHook": false,
               "skipped": false
             }
@@ -189,17 +189,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "dd787518-c084-43e1-994c-1ade74f808b4"
+            "460ece77-7131-4034-9ef5-23af876db4fa"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 0,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "c54db929-1c0f-40aa-8101-24a4413a0671",
+          "uuid": "21db23d5-2342-4bcc-a3d4-89c008bb753d",
           "title": "Multiple words to camel case",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
           "file": "/test/camelCase.test.js",
@@ -223,8 +223,8 @@
                 "estack": "AssertionError: expected ' helloBigWorld' to equal 'helloBigWorld'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:38:42)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "-  helloBigWorld\n+ helloBigWorld\n"
               },
-              "uuid": "1372480c-13e3-4855-996c-0b5c4f5a5de0",
-              "parentUUID": "c54db929-1c0f-40aa-8101-24a4413a0671",
+              "uuid": "0b049bf1-1c9c-4401-b61f-b163913cce4f",
+              "parentUUID": "21db23d5-2342-4bcc-a3d4-89c008bb753d",
               "isHook": false,
               "skipped": false
             }
@@ -232,7 +232,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "1372480c-13e3-4855-996c-0b5c4f5a5de0"
+            "0b049bf1-1c9c-4401-b61f-b163913cce4f"
           ],
           "pending": [],
           "skipped": [],
@@ -242,7 +242,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "880b409c-1440-4e58-8953-9a392d7ac276",
+          "uuid": "478a6a51-a3de-4985-a91b-f8783bde279b",
           "title": "Multiple words with first capitalized to camel case",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
           "file": "/test/camelCase.test.js",
@@ -266,8 +266,8 @@
                 "estack": "AssertionError: expected ' helloBigBigWorld' to equal 'helloBigBigWorld'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:45:46)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "-  helloBigBigWorld\n+ helloBigBigWorld\n"
               },
-              "uuid": "20f2d34b-6582-4df1-a8d8-707a777e6e90",
-              "parentUUID": "880b409c-1440-4e58-8953-9a392d7ac276",
+              "uuid": "63ed4d4d-51f8-4596-ae73-6ebdc1fe113b",
+              "parentUUID": "478a6a51-a3de-4985-a91b-f8783bde279b",
               "isHook": false,
               "skipped": false
             }
@@ -275,7 +275,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "20f2d34b-6582-4df1-a8d8-707a777e6e90"
+            "63ed4d4d-51f8-4596-ae73-6ebdc1fe113b"
           ],
           "pending": [],
           "skipped": [],
@@ -285,7 +285,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "4b11b3da-fbf2-404e-9d91-26f64d96b8aa",
+          "uuid": "583c7eb7-77b4-4ecf-bc20-e38eee71929c",
           "title": "Simple snake case to camel case",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
           "file": "/test/camelCase.test.js",
@@ -309,8 +309,8 @@
                 "estack": "AssertionError: expected ' snakeCase' to equal 'snakeCase'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:52:37)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "-  snakeCase\n+ snakeCase\n"
               },
-              "uuid": "d3634804-7d3d-4d85-a50a-f145059b0592",
-              "parentUUID": "4b11b3da-fbf2-404e-9d91-26f64d96b8aa",
+              "uuid": "60eeff5a-bc8b-4a4b-a7c8-f0ddab356c97",
+              "parentUUID": "583c7eb7-77b4-4ecf-bc20-e38eee71929c",
               "isHook": false,
               "skipped": false
             }
@@ -318,7 +318,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "d3634804-7d3d-4d85-a50a-f145059b0592"
+            "60eeff5a-bc8b-4a4b-a7c8-f0ddab356c97"
           ],
           "pending": [],
           "skipped": [],
@@ -328,7 +328,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "6bd7ffb1-943b-4de7-8070-fae133cb34fd",
+          "uuid": "3f1410ff-eee3-405f-98e2-65baabda2d31",
           "title": "Simple snake case with number to camel case",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
           "file": "/test/camelCase.test.js",
@@ -352,8 +352,8 @@
                 "estack": "AssertionError: expected ' snake123' to equal 'snake123'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:59:36)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "-  snake123\n+ snake123\n"
               },
-              "uuid": "e8db2fba-1cf3-46a3-8517-f4010236d3ff",
-              "parentUUID": "6bd7ffb1-943b-4de7-8070-fae133cb34fd",
+              "uuid": "10471abc-5b9b-445a-a0b9-35f2b1464a73",
+              "parentUUID": "3f1410ff-eee3-405f-98e2-65baabda2d31",
               "isHook": false,
               "skipped": false
             }
@@ -361,7 +361,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "e8db2fba-1cf3-46a3-8517-f4010236d3ff"
+            "10471abc-5b9b-445a-a0b9-35f2b1464a73"
           ],
           "pending": [],
           "skipped": [],
@@ -371,7 +371,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "6a31006a-213e-4e00-a79c-e16e365177e7",
+          "uuid": "0f2938b6-c6e9-48aa-8972-89349cd8dae5",
           "title": "Leading and trailing simple snake case to camel case",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
           "file": "/test/camelCase.test.js",
@@ -395,8 +395,8 @@
                 "estack": "AssertionError: expected ' snakeCase' to equal 'snakeCase'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:66:39)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "-  snakeCase\n+ snakeCase\n"
               },
-              "uuid": "da3ced33-e3fd-4dcb-9831-195714f8af7b",
-              "parentUUID": "6a31006a-213e-4e00-a79c-e16e365177e7",
+              "uuid": "02ffce59-0ff0-4ed5-a7dd-75c0c44e3ba3",
+              "parentUUID": "0f2938b6-c6e9-48aa-8972-89349cd8dae5",
               "isHook": false,
               "skipped": false
             }
@@ -404,7 +404,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "da3ced33-e3fd-4dcb-9831-195714f8af7b"
+            "02ffce59-0ff0-4ed5-a7dd-75c0c44e3ba3"
           ],
           "pending": [],
           "skipped": [],
@@ -414,7 +414,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "176c412e-e5b3-408f-a4b2-33399b5691c5",
+          "uuid": "9b72908f-c195-4129-b2e2-9a63d8201ef7",
           "title": "Double leading and trailing simple snake case with number to camel case",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
           "file": "/test/camelCase.test.js",
@@ -438,8 +438,8 @@
                 "estack": "AssertionError: expected ' snake123' to equal 'snake123'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:73:40)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "-  snake123\n+ snake123\n"
               },
-              "uuid": "eac66b3f-9fff-48df-bfcc-5e7fe7b7df02",
-              "parentUUID": "176c412e-e5b3-408f-a4b2-33399b5691c5",
+              "uuid": "0f3c9bb8-48d4-4dd7-9e01-24da02046a9b",
+              "parentUUID": "9b72908f-c195-4129-b2e2-9a63d8201ef7",
               "isHook": false,
               "skipped": false
             }
@@ -447,7 +447,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "eac66b3f-9fff-48df-bfcc-5e7fe7b7df02"
+            "0f3c9bb8-48d4-4dd7-9e01-24da02046a9b"
           ],
           "pending": [],
           "skipped": [],
@@ -457,7 +457,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "888c7665-a7b0-4591-b4ab-ee05f7ca97a3",
+          "uuid": "36cd64f0-5aa9-4895-991d-8857e00f07e2",
           "title": "Multiple snake case to camel case",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
           "file": "/test/camelCase.test.js",
@@ -481,8 +481,8 @@
                 "estack": "AssertionError: expected ' snakeCaseSnakeCase1' to equal 'snakeCaseSnakeCase1'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:80:50)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "-  snakeCaseSnakeCase1\n+ snakeCaseSnakeCase1\n"
               },
-              "uuid": "16ea66b7-00a8-4914-93ee-b8ce7f6dc7b7",
-              "parentUUID": "888c7665-a7b0-4591-b4ab-ee05f7ca97a3",
+              "uuid": "fbb0c236-e6cc-4629-b1e6-491ee66d9f95",
+              "parentUUID": "36cd64f0-5aa9-4895-991d-8857e00f07e2",
               "isHook": false,
               "skipped": false
             }
@@ -490,7 +490,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "16ea66b7-00a8-4914-93ee-b8ce7f6dc7b7"
+            "fbb0c236-e6cc-4629-b1e6-491ee66d9f95"
           ],
           "pending": [],
           "skipped": [],
@@ -500,7 +500,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "3a381f22-f848-40df-9971-e41ff7ea7895",
+          "uuid": "c6daaa2f-6afa-4bc6-bf0b-4f4682b0d6a2",
           "title": "Snake case with caps case to camel case",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
           "file": "/test/camelCase.test.js",
@@ -511,7 +511,7 @@
               "title": "SNAKE_CASE_1 -> snakeCase1",
               "fullTitle": "Snake case with caps case to camel case SNAKE_CASE_1 -> snakeCase1",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -524,8 +524,8 @@
                 "estack": "AssertionError: expected ' snakeCase1' to equal 'snakeCase1'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:87:39)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "-  snakeCase1\n+ snakeCase1\n"
               },
-              "uuid": "f906d13c-71b5-486b-b000-a8af2220500f",
-              "parentUUID": "3a381f22-f848-40df-9971-e41ff7ea7895",
+              "uuid": "c0e0962e-ad54-41f1-a5e6-e1116ca461ab",
+              "parentUUID": "c6daaa2f-6afa-4bc6-bf0b-4f4682b0d6a2",
               "isHook": false,
               "skipped": false
             }
@@ -533,17 +533,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "f906d13c-71b5-486b-b000-a8af2220500f"
+            "c0e0962e-ad54-41f1-a5e6-e1116ca461ab"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 0,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "4b5d010a-d1cf-42f3-8932-f8af9206f857",
+          "uuid": "3fb9633e-0094-4372-b473-cc84dbb3d480",
           "title": "Multiple snake case with caps case to camel case",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
           "file": "/test/camelCase.test.js",
@@ -554,7 +554,7 @@
               "title": "SNAKE CASE_1 -> snakeCase1",
               "fullTitle": "Multiple snake case with caps case to camel case SNAKE CASE_1 -> snakeCase1",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -567,8 +567,8 @@
                 "estack": "AssertionError: expected ' snakeCase1' to equal 'snakeCase1'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:94:39)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "-  snakeCase1\n+ snakeCase1\n"
               },
-              "uuid": "04208cbf-1476-47c2-bab7-1b7fd95ccb6a",
-              "parentUUID": "4b5d010a-d1cf-42f3-8932-f8af9206f857",
+              "uuid": "e314cab8-c74f-415b-b2b9-4511c20d0d56",
+              "parentUUID": "3fb9633e-0094-4372-b473-cc84dbb3d480",
               "isHook": false,
               "skipped": false
             }
@@ -576,17 +576,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "04208cbf-1476-47c2-bab7-1b7fd95ccb6a"
+            "e314cab8-c74f-415b-b2b9-4511c20d0d56"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 0,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "0f6da268-c967-4e84-8eb8-e88cc7d094d0",
+          "uuid": "4461042c-969a-4c3e-a2a2-3620b6953cfc",
           "title": "Redundant snake with caps case to camel case",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
           "file": "/test/camelCase.test.js",
@@ -597,7 +597,7 @@
               "title": "SNAKE__case__1 -> snakeCase1",
               "fullTitle": "Redundant snake with caps case to camel case SNAKE__case__1 -> snakeCase1",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -610,8 +610,8 @@
                 "estack": "AssertionError: expected ' snakeCase1' to equal 'snakeCase1'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:101:41)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "-  snakeCase1\n+ snakeCase1\n"
               },
-              "uuid": "27beed8c-be60-4a59-ab4d-3422f0344924",
-              "parentUUID": "0f6da268-c967-4e84-8eb8-e88cc7d094d0",
+              "uuid": "c8017c65-a781-4067-955f-bc3e6680c30c",
+              "parentUUID": "4461042c-969a-4c3e-a2a2-3620b6953cfc",
               "isHook": false,
               "skipped": false
             }
@@ -619,17 +619,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "27beed8c-be60-4a59-ab4d-3422f0344924"
+            "c8017c65-a781-4067-955f-bc3e6680c30c"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "ac5be9c0-df48-4f38-9ef1-94180e6cbccf",
+          "uuid": "963ae9a3-2da2-463b-a252-ff87c88f661e",
           "title": "Leading and trailing redundant snake with caps case to camel case",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
           "file": "/test/camelCase.test.js",
@@ -653,8 +653,8 @@
                 "estack": "AssertionError: expected ' snakeCase1' to equal 'snakeCase1'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:108:45)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "-  snakeCase1\n+ snakeCase1\n"
               },
-              "uuid": "d00c8ff0-be72-4f32-8d8d-7bbf52333858",
-              "parentUUID": "ac5be9c0-df48-4f38-9ef1-94180e6cbccf",
+              "uuid": "88472bc3-8e90-47ba-a4b6-b66d84cfee48",
+              "parentUUID": "963ae9a3-2da2-463b-a252-ff87c88f661e",
               "isHook": false,
               "skipped": false
             }
@@ -662,7 +662,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "d00c8ff0-be72-4f32-8d8d-7bbf52333858"
+            "88472bc3-8e90-47ba-a4b6-b66d84cfee48"
           ],
           "pending": [],
           "skipped": [],
@@ -672,7 +672,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "c74de56b-ac27-4c19-95d5-4873c157e496",
+          "uuid": "4b9e881a-4dd5-4c51-b9d1-7793eede5a54",
           "title": "Simple hyphenation to snake case",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
           "file": "/test/camelCase.test.js",
@@ -683,7 +683,7 @@
               "title": "simple-world -> simpleWorld",
               "fullTitle": "Simple hyphenation to snake case simple-world -> simpleWorld",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -696,8 +696,8 @@
                 "estack": "AssertionError: expected ' simpleWorld' to equal 'simpleWorld'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:115:39)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "-  simpleWorld\n+ simpleWorld\n"
               },
-              "uuid": "5f98f916-f0c6-48c3-8a6a-c0f0c9a01c69",
-              "parentUUID": "c74de56b-ac27-4c19-95d5-4873c157e496",
+              "uuid": "3d77f0cd-1c3d-498e-b812-5701344aa248",
+              "parentUUID": "4b9e881a-4dd5-4c51-b9d1-7793eede5a54",
               "isHook": false,
               "skipped": false
             }
@@ -705,17 +705,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "5f98f916-f0c6-48c3-8a6a-c0f0c9a01c69"
+            "3d77f0cd-1c3d-498e-b812-5701344aa248"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 0,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "46bd5005-abfe-458d-aafe-2b7229a37ffa",
+          "uuid": "b8c3119f-ea05-4c33-832b-eb9eadd4caf9",
           "title": "Multiple hyphenation to snake case",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
           "file": "/test/camelCase.test.js",
@@ -739,8 +739,8 @@
                 "estack": "AssertionError: expected ' notSoSimple123SimpleWorld' to equal 'notSoSimple123SimpleWorld'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:122:57)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "-  notSoSimple123SimpleWorld\n+ notSoSimple123SimpleWorld\n"
               },
-              "uuid": "41a488d3-5b50-4158-8381-b32299766b46",
-              "parentUUID": "46bd5005-abfe-458d-aafe-2b7229a37ffa",
+              "uuid": "ad5f98e1-3a48-45f7-ba23-d9e22e4df342",
+              "parentUUID": "b8c3119f-ea05-4c33-832b-eb9eadd4caf9",
               "isHook": false,
               "skipped": false
             }
@@ -748,7 +748,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "41a488d3-5b50-4158-8381-b32299766b46"
+            "ad5f98e1-3a48-45f7-ba23-d9e22e4df342"
           ],
           "pending": [],
           "skipped": [],
@@ -758,7 +758,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "9c6fb15b-d6e0-4eb6-bebd-f7d902c8157c",
+          "uuid": "4819683f-147f-4303-9a47-f77f038595aa",
           "title": "Multiple hyphenation to snake case with caps",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
           "file": "/test/camelCase.test.js",
@@ -769,7 +769,7 @@
               "title": "HELLO-simple-world -> helloSimpleWorld",
               "fullTitle": "Multiple hyphenation to snake case with caps HELLO-simple-world -> helloSimpleWorld",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -782,8 +782,8 @@
                 "estack": "AssertionError: expected ' helloSimpleWorld' to equal 'helloSimpleWorld'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:129:45)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "-  helloSimpleWorld\n+ helloSimpleWorld\n"
               },
-              "uuid": "7a8e70ed-7e58-4007-8d7c-81e32fca6605",
-              "parentUUID": "9c6fb15b-d6e0-4eb6-bebd-f7d902c8157c",
+              "uuid": "43ef4470-4085-48fa-a269-98641020b1fa",
+              "parentUUID": "4819683f-147f-4303-9a47-f77f038595aa",
               "isHook": false,
               "skipped": false
             }
@@ -791,17 +791,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "7a8e70ed-7e58-4007-8d7c-81e32fca6605"
+            "43ef4470-4085-48fa-a269-98641020b1fa"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 0,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "58e48fa5-af22-4468-8a58-ef31a4ca3360",
+          "uuid": "d8c1724c-7079-4698-bb4d-50b090c4cff8",
           "title": "Words with leading and trailing hyphenation to snake case",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
           "file": "/test/camelCase.test.js",
@@ -812,7 +812,7 @@
               "title": "-hello-simple-world- -> helloSimpleWorld",
               "fullTitle": "Words with leading and trailing hyphenation to snake case -hello-simple-world- -> helloSimpleWorld",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -825,8 +825,8 @@
                 "estack": "AssertionError: expected ' helloSimpleWorld' to equal 'helloSimpleWorld'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:136:47)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "-  helloSimpleWorld\n+ helloSimpleWorld\n"
               },
-              "uuid": "cb3c77bd-9f4d-4be6-8f6c-71c383cdfd52",
-              "parentUUID": "58e48fa5-af22-4468-8a58-ef31a4ca3360",
+              "uuid": "8078c170-365d-4784-9dfe-9c8d79e512c8",
+              "parentUUID": "d8c1724c-7079-4698-bb4d-50b090c4cff8",
               "isHook": false,
               "skipped": false
             }
@@ -834,17 +834,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "cb3c77bd-9f4d-4be6-8f6c-71c383cdfd52"
+            "8078c170-365d-4784-9dfe-9c8d79e512c8"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "0623bdf7-f2b9-49f1-965b-0b4afd5561e5",
+          "uuid": "06fbb95b-ef08-477d-aeb6-6dd5b486555b",
           "title": "Words with redundant leading and trailing hyphenation to snake case",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
           "file": "/test/camelCase.test.js",
@@ -855,7 +855,7 @@
               "title": "--hello-simple-world-- -> helloSimpleWorld",
               "fullTitle": "Words with redundant leading and trailing hyphenation to snake case --hello-simple-world-- -> helloSimpleWorld",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -868,8 +868,8 @@
                 "estack": "AssertionError: expected ' helloSimpleWorld' to equal 'helloSimpleWorld'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:143:49)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "-  helloSimpleWorld\n+ helloSimpleWorld\n"
               },
-              "uuid": "c649079a-0413-4b7b-8c0b-232652994581",
-              "parentUUID": "0623bdf7-f2b9-49f1-965b-0b4afd5561e5",
+              "uuid": "d4e58947-f4bd-4d06-9b9c-811e32661d81",
+              "parentUUID": "06fbb95b-ef08-477d-aeb6-6dd5b486555b",
               "isHook": false,
               "skipped": false
             }
@@ -877,17 +877,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "c649079a-0413-4b7b-8c0b-232652994581"
+            "d4e58947-f4bd-4d06-9b9c-811e32661d81"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 0,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "2dc80847-5fb3-4d5d-a4a4-643466a67b64",
+          "uuid": "f13ac8c9-716b-40d5-82d6-98ee57dbd4cb",
           "title": "Empty array chunk",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js",
           "file": "/test/chunkTest.test.js",
@@ -907,15 +907,15 @@
               "context": null,
               "code": "expect(chunk([], 1)).to.deep.equal([])",
               "err": {},
-              "uuid": "30fd47e3-7ec1-45b7-be9f-b46e37a00597",
-              "parentUUID": "2dc80847-5fb3-4d5d-a4a4-643466a67b64",
+              "uuid": "ae341f7d-0af8-4fe8-a90f-96698acd8272",
+              "parentUUID": "f13ac8c9-716b-40d5-82d6-98ee57dbd4cb",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "30fd47e3-7ec1-45b7-be9f-b46e37a00597"
+            "ae341f7d-0af8-4fe8-a90f-96698acd8272"
           ],
           "failures": [],
           "pending": [],
@@ -926,7 +926,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "1f8c875e-8cbd-47d3-b12c-8295731b6507",
+          "uuid": "33344f11-af3c-48a4-9198-eb150b581874",
           "title": "Simple array chunk",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js",
           "file": "/test/chunkTest.test.js",
@@ -950,8 +950,8 @@
                 "estack": "AssertionError: expected [ [ 2 ],  ] to deeply equal [ [ 1 ], [ 2 ] ]\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js:17:38)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": " [\n   [\n+     1\n+   ]\n+   [\n     2\n   ]\n ]\n"
               },
-              "uuid": "412f39db-dee9-4c42-a9eb-c29be5009e38",
-              "parentUUID": "1f8c875e-8cbd-47d3-b12c-8295731b6507",
+              "uuid": "8ea00526-1ff4-454c-8b4e-21ea8e5cc041",
+              "parentUUID": "33344f11-af3c-48a4-9198-eb150b581874",
               "isHook": false,
               "skipped": false
             }
@@ -959,7 +959,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "412f39db-dee9-4c42-a9eb-c29be5009e38"
+            "8ea00526-1ff4-454c-8b4e-21ea8e5cc041"
           ],
           "pending": [],
           "skipped": [],
@@ -969,7 +969,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "792cd2f9-518c-4911-8391-3f3067f224b7",
+          "uuid": "ac1935f6-7410-4f1c-80f9-888595f015df",
           "title": "Char array chunk to size 1",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js",
           "file": "/test/chunkTest.test.js",
@@ -993,8 +993,8 @@
                 "estack": "AssertionError: expected [ [ 'c' ], ,  ] to deeply equal [ [ 'a' ], [ 'b' ], [ 'c' ] ]\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js:24:47)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": " [\n   [\n+     \"a\"\n+   ]\n+   [\n+     \"b\"\n+   ]\n+   [\n     \"c\"\n   ]\n ]\n"
               },
-              "uuid": "67b1cdd5-1a6a-4230-973a-6b46c48e8706",
-              "parentUUID": "792cd2f9-518c-4911-8391-3f3067f224b7",
+              "uuid": "4625b633-b782-482b-adde-f1a5b9e14da5",
+              "parentUUID": "ac1935f6-7410-4f1c-80f9-888595f015df",
               "isHook": false,
               "skipped": false
             }
@@ -1002,7 +1002,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "67b1cdd5-1a6a-4230-973a-6b46c48e8706"
+            "4625b633-b782-482b-adde-f1a5b9e14da5"
           ],
           "pending": [],
           "skipped": [],
@@ -1012,7 +1012,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "c2e88337-42fd-4d4a-88a9-e7893c4716c9",
+          "uuid": "215940a1-9d64-4a97-8423-5df22b255386",
           "title": "Char array chunk to size 2",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js",
           "file": "/test/chunkTest.test.js",
@@ -1023,7 +1023,7 @@
               "title": "[a,b,c,d],2 -> [[a,b],[c,d]]",
               "fullTitle": "Char array chunk to size 2 [a,b,c,d],2 -> [[a,b],[c,d]]",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1036,8 +1036,8 @@
                 "estack": "AssertionError: expected [ [ 'c', 'd' ],  ] to deeply equal [ [ 'a', 'b' ], [ 'c', 'd' ] ]\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js:31:52)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": " [\n   [\n+     \"a\"\n+     \"b\"\n+   ]\n+   [\n     \"c\"\n     \"d\"\n   ]\n ]\n"
               },
-              "uuid": "0d2d1e91-9945-4e45-9880-3796c47b5740",
-              "parentUUID": "c2e88337-42fd-4d4a-88a9-e7893c4716c9",
+              "uuid": "d3023893-4506-4990-b8f7-d6517c3ed74f",
+              "parentUUID": "215940a1-9d64-4a97-8423-5df22b255386",
               "isHook": false,
               "skipped": false
             }
@@ -1045,17 +1045,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "0d2d1e91-9945-4e45-9880-3796c47b5740"
+            "d3023893-4506-4990-b8f7-d6517c3ed74f"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "f6393166-290a-4060-8e0d-b3248804e52c",
+          "uuid": "79101761-b12a-46d2-8e35-95f0a355ae45",
           "title": "Char array without residual",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js",
           "file": "/test/chunkTest.test.js",
@@ -1066,7 +1066,7 @@
               "title": "[a,b,c,d,e,f],3 -> [[a,b,c],[d,e,f]]",
               "fullTitle": "Char array without residual [a,b,c,d,e,f],3 -> [[a,b,c],[d,e,f]]",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1079,8 +1079,8 @@
                 "estack": "AssertionError: expected [ [ 'd', 'e', 'f' ],  ] to deeply equal [ Array(2) ]\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js:38:62)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": " [\n   [\n+     \"a\"\n+     \"b\"\n+     \"c\"\n+   ]\n+   [\n     \"d\"\n     \"e\"\n     \"f\"\n   ]\n"
               },
-              "uuid": "b97a9afb-8436-4bb7-b309-6fd68059e70e",
-              "parentUUID": "f6393166-290a-4060-8e0d-b3248804e52c",
+              "uuid": "cbe0f0fd-fac8-49b1-8d8f-ed3fac89829c",
+              "parentUUID": "79101761-b12a-46d2-8e35-95f0a355ae45",
               "isHook": false,
               "skipped": false
             }
@@ -1088,17 +1088,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "b97a9afb-8436-4bb7-b309-6fd68059e70e"
+            "cbe0f0fd-fac8-49b1-8d8f-ed3fac89829c"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "1b2e10d1-de08-48a3-aac4-6c03e30b8c4b",
+          "uuid": "0947bb5f-2f99-412e-a452-3ea58ecfbecf",
           "title": "Char array with residual",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js",
           "file": "/test/chunkTest.test.js",
@@ -1122,8 +1122,8 @@
                 "estack": "AssertionError: expected [ [ 'd', 'e', undefined ],  ] to deeply equal [ [ 'a', 'b', 'c' ], [ 'd', 'e' ] ]\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js:45:57)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": " [\n   [\n+     \"a\"\n+     \"b\"\n+     \"c\"\n+   ]\n+   [\n     \"d\"\n     \"e\"\n-     [undefined]\n   ]\n ]\n"
               },
-              "uuid": "f37d901f-3700-4784-a70c-e4221e5ce520",
-              "parentUUID": "1b2e10d1-de08-48a3-aac4-6c03e30b8c4b",
+              "uuid": "14fd433f-e43a-4271-a968-63bf849eedfd",
+              "parentUUID": "0947bb5f-2f99-412e-a452-3ea58ecfbecf",
               "isHook": false,
               "skipped": false
             }
@@ -1131,7 +1131,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "f37d901f-3700-4784-a70c-e4221e5ce520"
+            "14fd433f-e43a-4271-a968-63bf849eedfd"
           ],
           "pending": [],
           "skipped": [],
@@ -1141,7 +1141,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "c8801a2e-ad7d-475b-ad42-7b7a416cca5b",
+          "uuid": "ac941ce9-0ab7-4a7d-b059-2fb34d804d89",
           "title": "Chunk size equal to array size",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js",
           "file": "/test/chunkTest.test.js",
@@ -1152,7 +1152,7 @@
               "title": "[a,b,c,d,e],5 -> [a,b,c,d,e]",
               "fullTitle": "Chunk size equal to array size [a,b,c,d,e],5 -> [a,b,c,d,e]",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -1161,26 +1161,26 @@
               "context": null,
               "code": "expect(chunk(['a', 'b', 'c', 'd', 'e'], 5)).to.deep.equal([['a', 'b', 'c', 'd', 'e']])",
               "err": {},
-              "uuid": "1b796430-ae67-4903-ad5e-930bed483bf7",
-              "parentUUID": "c8801a2e-ad7d-475b-ad42-7b7a416cca5b",
+              "uuid": "14280b37-f0ba-4547-90df-c39d18005c64",
+              "parentUUID": "ac941ce9-0ab7-4a7d-b059-2fb34d804d89",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "1b796430-ae67-4903-ad5e-930bed483bf7"
+            "14280b37-f0ba-4547-90df-c39d18005c64"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "7cd0e1c5-c1a5-4212-b3e7-bff2deb1b0bd",
+          "uuid": "d68bc10c-e103-438d-941b-5e8ee6eaef29",
           "title": "Chunk size more than array size",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js",
           "file": "/test/chunkTest.test.js",
@@ -1204,8 +1204,8 @@
                 "estack": "AssertionError: expected [ Array(1) ] to deeply equal [ [ 'a', 'b', 'c', 'd', 'e' ] ]\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js:60:57)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "     \"b\"\n     \"c\"\n     \"d\"\n     \"e\"\n-     [undefined]\n   ]\n ]\n"
               },
-              "uuid": "cf781500-03b7-4f21-8f74-189d395ba0fa",
-              "parentUUID": "7cd0e1c5-c1a5-4212-b3e7-bff2deb1b0bd",
+              "uuid": "463afd35-47e9-4165-92f8-1f8f644fb8ad",
+              "parentUUID": "d68bc10c-e103-438d-941b-5e8ee6eaef29",
               "isHook": false,
               "skipped": false
             }
@@ -1213,7 +1213,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "cf781500-03b7-4f21-8f74-189d395ba0fa"
+            "463afd35-47e9-4165-92f8-1f8f644fb8ad"
           ],
           "pending": [],
           "skipped": [],
@@ -1223,7 +1223,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "03817c11-a979-499b-af17-6e891c77b8c4",
+          "uuid": "65157ce9-3eb1-4e2a-b848-cd2ceb86d9c0",
           "title": "Simple countBy test with empty object",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/countBy.test.js",
           "file": "/test/countBy.test.js",
@@ -1234,7 +1234,7 @@
               "title": "[] -> {}",
               "fullTitle": "Simple countBy test with empty object [] -> {}",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -1243,26 +1243,26 @@
               "context": null,
               "code": "expect(countBy(users, value => value.active)).to.deep.equal({})",
               "err": {},
-              "uuid": "faae9d71-08e5-4cf3-9771-ae1427fe6793",
-              "parentUUID": "03817c11-a979-499b-af17-6e891c77b8c4",
+              "uuid": "4ed7fe70-af85-4f5d-b42d-5e8e571f0dc7",
+              "parentUUID": "65157ce9-3eb1-4e2a-b848-cd2ceb86d9c0",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "faae9d71-08e5-4cf3-9771-ae1427fe6793"
+            "4ed7fe70-af85-4f5d-b42d-5e8e571f0dc7"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 0,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "f71d4984-a587-4ff3-92d2-442900ffa516",
+          "uuid": "c07e04a8-25bb-4a52-9542-b7f22d8a3e5d",
           "title": "Simple countBy test with three values",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/countBy.test.js",
           "file": "/test/countBy.test.js",
@@ -1286,8 +1286,8 @@
                 "estack": "AssertionError: expected { true: 1, false: 0 } to deeply equal { true: 2, false: 1 }\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/countBy.test.js:24:59)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": " {\n-   \"false\": 0\n-   \"true\": 1\n+   \"false\": 1\n+   \"true\": 2\n }\n"
               },
-              "uuid": "b7ddc007-9aa9-4d0e-9ac6-8fc9c5963db1",
-              "parentUUID": "f71d4984-a587-4ff3-92d2-442900ffa516",
+              "uuid": "d1fda2df-b6f5-4242-91b5-4dda5d719207",
+              "parentUUID": "c07e04a8-25bb-4a52-9542-b7f22d8a3e5d",
               "isHook": false,
               "skipped": false
             }
@@ -1295,7 +1295,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "b7ddc007-9aa9-4d0e-9ac6-8fc9c5963db1"
+            "d1fda2df-b6f5-4242-91b5-4dda5d719207"
           ],
           "pending": [],
           "skipped": [],
@@ -1305,7 +1305,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "6fad60aa-30c6-45ae-9445-c3685870f48e",
+          "uuid": "2c76cfd9-7ba6-4ab0-baec-40c25537ad54",
           "title": "Simple countBy test with four values",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/countBy.test.js",
           "file": "/test/countBy.test.js",
@@ -1316,7 +1316,7 @@
               "title": "[{ ... }] -> {\"false\": 1, \"true\": 3}",
               "fullTitle": "Simple countBy test with four values [{ ... }] -> {\"false\": 1, \"true\": 3}",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1329,8 +1329,8 @@
                 "estack": "AssertionError: expected { true: 2, false: 0 } to deeply equal { true: 3, false: 1 }\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/countBy.test.js:37:59)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": " {\n-   \"false\": 0\n-   \"true\": 2\n+   \"false\": 1\n+   \"true\": 3\n }\n"
               },
-              "uuid": "7296d428-059b-470d-a79b-3a3c21541965",
-              "parentUUID": "6fad60aa-30c6-45ae-9445-c3685870f48e",
+              "uuid": "d5e47bf7-5cef-414d-adb8-0be734291a27",
+              "parentUUID": "2c76cfd9-7ba6-4ab0-baec-40c25537ad54",
               "isHook": false,
               "skipped": false
             }
@@ -1338,17 +1338,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "7296d428-059b-470d-a79b-3a3c21541965"
+            "d5e47bf7-5cef-414d-adb8-0be734291a27"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 0,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "fb922b48-d347-4fdb-bc3c-c6b768f958e2",
+          "uuid": "8d0a9bdf-60a1-4bf7-9bc4-b0a4d20cbee9",
           "title": "A countBy test with four equal values",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/countBy.test.js",
           "file": "/test/countBy.test.js",
@@ -1372,8 +1372,8 @@
                 "estack": "AssertionError: expected { true: 3 } to deeply equal { true: 4 }\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/countBy.test.js:50:59)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": " {\n-   \"true\": 3\n+   \"true\": 4\n }\n"
               },
-              "uuid": "80d18dbe-189c-42ee-ae0d-5b5bf87f2669",
-              "parentUUID": "fb922b48-d347-4fdb-bc3c-c6b768f958e2",
+              "uuid": "8c6e084f-dd3e-4f09-8cce-8aa04b8c0776",
+              "parentUUID": "8d0a9bdf-60a1-4bf7-9bc4-b0a4d20cbee9",
               "isHook": false,
               "skipped": false
             }
@@ -1381,7 +1381,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "80d18dbe-189c-42ee-ae0d-5b5bf87f2669"
+            "8c6e084f-dd3e-4f09-8cce-8aa04b8c0776"
           ],
           "pending": [],
           "skipped": [],
@@ -1391,7 +1391,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "e1a317ee-dfd0-4a13-a504-70c2bdd8c991",
+          "uuid": "f834a000-4d5c-403e-b1fa-a3033274be1f",
           "title": "A countBy test with four values and multiple attributes",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/countBy.test.js",
           "file": "/test/countBy.test.js",
@@ -1415,8 +1415,8 @@
                 "estack": "AssertionError: expected { '25': 0, '27': 0, '30': 1 } to deeply equal { '25': 1, '27': 1, '30': 2 }\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/countBy.test.js:63:56)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": " {\n-   \"25\": 0\n-   \"27\": 0\n-   \"30\": 1\n+   \"25\": 1\n+   \"27\": 1\n+   \"30\": 2\n }\n"
               },
-              "uuid": "d97854fb-1739-4736-95ba-1701e0fe3aa2",
-              "parentUUID": "e1a317ee-dfd0-4a13-a504-70c2bdd8c991",
+              "uuid": "013ce8c7-4507-4e44-a48a-4833a1f23a21",
+              "parentUUID": "f834a000-4d5c-403e-b1fa-a3033274be1f",
               "isHook": false,
               "skipped": false
             }
@@ -1424,7 +1424,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "d97854fb-1739-4736-95ba-1701e0fe3aa2"
+            "013ce8c7-4507-4e44-a48a-4833a1f23a21"
           ],
           "pending": [],
           "skipped": [],
@@ -1434,7 +1434,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "5338d969-32cd-46e5-a814-5aa0eb08acaa",
+          "uuid": "84697329-a627-464a-bd23-6433789900b8",
           "title": "Simple isBuffer test with null",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
           "file": "/test/isBuffer.test.js",
@@ -1445,7 +1445,7 @@
               "title": "null -> true",
               "fullTitle": "Simple isBuffer test with null null -> true",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -1454,26 +1454,26 @@
               "context": null,
               "code": "expect(isBuffer(null)).equal(false)",
               "err": {},
-              "uuid": "1f8a824b-ecbe-4222-b4e5-43d238175407",
-              "parentUUID": "5338d969-32cd-46e5-a814-5aa0eb08acaa",
+              "uuid": "f382352b-9115-464c-9503-c56f7de6dc22",
+              "parentUUID": "84697329-a627-464a-bd23-6433789900b8",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "1f8a824b-ecbe-4222-b4e5-43d238175407"
+            "f382352b-9115-464c-9503-c56f7de6dc22"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "54dcbea1-1836-4104-9a30-4df2514aa693",
+          "uuid": "9ff4a96d-471f-480f-9f0a-6caebe036712",
           "title": "Simple isBuffer test with allocated null",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
           "file": "/test/isBuffer.test.js",
@@ -1484,7 +1484,7 @@
               "title": "Buffer.alloc(null) -> true",
               "fullTitle": "Simple isBuffer test with allocated null Buffer.alloc(null) -> true",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1497,8 +1497,8 @@
                 "estack": "TypeError [ERR_INVALID_ARG_TYPE]: The \"size\" argument must be of type number. Received null\n    at Function.alloc (node:buffer:360:3)\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js:17:28)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": null
               },
-              "uuid": "00d3b67d-1bbe-4d01-9a3d-12bcab2389ce",
-              "parentUUID": "54dcbea1-1836-4104-9a30-4df2514aa693",
+              "uuid": "d9c80411-9852-4112-bf5c-d13bd5138d37",
+              "parentUUID": "9ff4a96d-471f-480f-9f0a-6caebe036712",
               "isHook": false,
               "skipped": false
             }
@@ -1506,17 +1506,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "00d3b67d-1bbe-4d01-9a3d-12bcab2389ce"
+            "d9c80411-9852-4112-bf5c-d13bd5138d37"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "e6a94e25-d39a-401d-911a-9fde17e0a488",
+          "uuid": "fa430515-13c4-40a4-bd82-7e74ccd4b555",
           "title": "Simple isBuffer test with string",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
           "file": "/test/isBuffer.test.js",
@@ -1536,15 +1536,15 @@
               "context": null,
               "code": "expect(isBuffer('Test')).equal(false)",
               "err": {},
-              "uuid": "099a2076-cac3-4e5d-9a1f-1ade022c1ed7",
-              "parentUUID": "e6a94e25-d39a-401d-911a-9fde17e0a488",
+              "uuid": "b72ce065-45e1-4d9d-89f6-d789c23f382a",
+              "parentUUID": "fa430515-13c4-40a4-bd82-7e74ccd4b555",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "099a2076-cac3-4e5d-9a1f-1ade022c1ed7"
+            "b72ce065-45e1-4d9d-89f6-d789c23f382a"
           ],
           "failures": [],
           "pending": [],
@@ -1555,7 +1555,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "db2406a7-20d3-444b-9542-55a1442ecbd5",
+          "uuid": "b9dfc0f6-6e2f-48b3-ab78-f09facfa9369",
           "title": "Simple isBuffer test with int",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
           "file": "/test/isBuffer.test.js",
@@ -1575,15 +1575,15 @@
               "context": null,
               "code": "expect(isBuffer(1)).equal(false)",
               "err": {},
-              "uuid": "968946b4-021a-442c-bef8-6a36a25c81b0",
-              "parentUUID": "db2406a7-20d3-444b-9542-55a1442ecbd5",
+              "uuid": "d93ad303-2ff6-4a0d-8104-c128ce33259b",
+              "parentUUID": "b9dfc0f6-6e2f-48b3-ab78-f09facfa9369",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "968946b4-021a-442c-bef8-6a36a25c81b0"
+            "d93ad303-2ff6-4a0d-8104-c128ce33259b"
           ],
           "failures": [],
           "pending": [],
@@ -1594,7 +1594,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "888949d3-b42a-439c-9a9e-85238a24abea",
+          "uuid": "4ebeb36a-a1f4-4965-9ab6-d87a983758a6",
           "title": "Simple isBuffer test with number in buffer",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
           "file": "/test/isBuffer.test.js",
@@ -1605,7 +1605,7 @@
               "title": "Buffer.alloc(2) -> true",
               "fullTitle": "Simple isBuffer test with number in buffer Buffer.alloc(2) -> true",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1618,8 +1618,8 @@
                 "estack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js:38:39)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "- false\n+ true\n"
               },
-              "uuid": "def2a132-9bbb-41cd-9237-80cbcdd02661",
-              "parentUUID": "888949d3-b42a-439c-9a9e-85238a24abea",
+              "uuid": "5bfe506e-11b2-4bc5-a7f3-3f229d5d2b0a",
+              "parentUUID": "4ebeb36a-a1f4-4965-9ab6-d87a983758a6",
               "isHook": false,
               "skipped": false
             }
@@ -1627,17 +1627,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "def2a132-9bbb-41cd-9237-80cbcdd02661"
+            "5bfe506e-11b2-4bc5-a7f3-3f229d5d2b0a"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 0,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "ab806e74-cba1-4992-b958-b1b3f7d06c52",
+          "uuid": "829700d9-3265-4955-9091-a060b98529ba",
           "title": "isBuffer test with Uint8Array",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
           "file": "/test/isBuffer.test.js",
@@ -1657,15 +1657,15 @@
               "context": null,
               "code": "expect(isBuffer(new Uint8Array(2))).equal(false)",
               "err": {},
-              "uuid": "7e4e7284-acc3-4f27-91cc-b883d198c7ca",
-              "parentUUID": "ab806e74-cba1-4992-b958-b1b3f7d06c52",
+              "uuid": "6ad60cd3-545d-4aea-baf7-6b3242073b63",
+              "parentUUID": "829700d9-3265-4955-9091-a060b98529ba",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "7e4e7284-acc3-4f27-91cc-b883d198c7ca"
+            "6ad60cd3-545d-4aea-baf7-6b3242073b63"
           ],
           "failures": [],
           "pending": [],
@@ -1676,7 +1676,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "569ac4ae-4711-4afc-a4ef-6da5854a1e2f",
+          "uuid": "cd45f768-1685-4315-9191-bafff4f223aa",
           "title": "isBuffer test with Int8Array",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
           "file": "/test/isBuffer.test.js",
@@ -1687,7 +1687,7 @@
               "title": "(new Int8Array(2)) -> false",
               "fullTitle": "isBuffer test with Int8Array (new Int8Array(2)) -> false",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -1696,26 +1696,26 @@
               "context": null,
               "code": "expect(isBuffer(new Int8Array(2))).equal(false)",
               "err": {},
-              "uuid": "336ba28a-c286-4d38-9174-304de447369e",
-              "parentUUID": "569ac4ae-4711-4afc-a4ef-6da5854a1e2f",
+              "uuid": "fec18838-d8a1-4f98-96d7-bde30748d623",
+              "parentUUID": "cd45f768-1685-4315-9191-bafff4f223aa",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "336ba28a-c286-4d38-9174-304de447369e"
+            "fec18838-d8a1-4f98-96d7-bde30748d623"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "8723d19e-aeef-434e-91c4-b472c0a4792f",
+          "uuid": "1e80b9d0-be50-4885-bf26-a045c2fe9614",
           "title": "isBuffer test with Uint8ClampedArray",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
           "file": "/test/isBuffer.test.js",
@@ -1735,15 +1735,15 @@
               "context": null,
               "code": "expect(isBuffer(new Uint8ClampedArray(2))).equal(false)",
               "err": {},
-              "uuid": "875aa549-fde3-46b8-b566-ab961f742c30",
-              "parentUUID": "8723d19e-aeef-434e-91c4-b472c0a4792f",
+              "uuid": "96fde40d-af80-43f2-9718-584f84193a2b",
+              "parentUUID": "1e80b9d0-be50-4885-bf26-a045c2fe9614",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "875aa549-fde3-46b8-b566-ab961f742c30"
+            "96fde40d-af80-43f2-9718-584f84193a2b"
           ],
           "failures": [],
           "pending": [],
@@ -1754,7 +1754,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "6308014c-c685-407c-af70-5f55b366f3cc",
+          "uuid": "9092a4cf-dca6-4ca8-9af2-e5b19fbc5057",
           "title": "isBuffer test with Uint16Array",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
           "file": "/test/isBuffer.test.js",
@@ -1774,15 +1774,15 @@
               "context": null,
               "code": "expect(isBuffer(new Uint16Array(2))).equal(false)",
               "err": {},
-              "uuid": "f487b5aa-94b1-4f4f-bbd6-95898ea98c0e",
-              "parentUUID": "6308014c-c685-407c-af70-5f55b366f3cc",
+              "uuid": "5f0f58b8-037e-440f-9018-7e6b29eae57a",
+              "parentUUID": "9092a4cf-dca6-4ca8-9af2-e5b19fbc5057",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "f487b5aa-94b1-4f4f-bbd6-95898ea98c0e"
+            "5f0f58b8-037e-440f-9018-7e6b29eae57a"
           ],
           "failures": [],
           "pending": [],
@@ -1793,7 +1793,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "1c73afb9-8140-4baa-8ebf-71c58d105c24",
+          "uuid": "60aa557d-364f-4481-86be-0ea36be5e1a6",
           "title": "isBuffer test with Int32Array",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
           "file": "/test/isBuffer.test.js",
@@ -1804,7 +1804,7 @@
               "title": "(new Int32Array(2)) -> false",
               "fullTitle": "isBuffer test with Int32Array (new Int32Array(2)) -> false",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -1813,26 +1813,26 @@
               "context": null,
               "code": "expect(isBuffer(new Int32Array(2))).equal(false)",
               "err": {},
-              "uuid": "4e2059e0-e764-4529-873d-4b1a4bf49b13",
-              "parentUUID": "1c73afb9-8140-4baa-8ebf-71c58d105c24",
+              "uuid": "29901e43-baa5-4436-97d1-50635114e6a4",
+              "parentUUID": "60aa557d-364f-4481-86be-0ea36be5e1a6",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "4e2059e0-e764-4529-873d-4b1a4bf49b13"
+            "29901e43-baa5-4436-97d1-50635114e6a4"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "f7081cb9-e4ae-4b76-b5fd-b28e79a0ca8d",
+          "uuid": "6c47d439-6e8c-4d7d-9ca4-8ec856cd0062",
           "title": "isBuffer test with ones as buffer values",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
           "file": "/test/isBuffer.test.js",
@@ -1856,8 +1856,8 @@
                 "estack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js:80:43)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "- false\n+ true\n"
               },
-              "uuid": "70935951-ac14-443b-85ea-c97ec7e4feb6",
-              "parentUUID": "f7081cb9-e4ae-4b76-b5fd-b28e79a0ca8d",
+              "uuid": "dba5e43b-bc52-4c96-a20f-8fe85b538a97",
+              "parentUUID": "6c47d439-6e8c-4d7d-9ca4-8ec856cd0062",
               "isHook": false,
               "skipped": false
             }
@@ -1865,7 +1865,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "70935951-ac14-443b-85ea-c97ec7e4feb6"
+            "dba5e43b-bc52-4c96-a20f-8fe85b538a97"
           ],
           "pending": [],
           "skipped": [],
@@ -1875,7 +1875,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "4a802c17-e5b9-45e4-8e9e-69104ab9dea6",
+          "uuid": "8e4ff55b-e74f-4cb5-851d-ced36375d0cf",
           "title": "isBuffer test with defined values",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
           "file": "/test/isBuffer.test.js",
@@ -1899,8 +1899,8 @@
                 "estack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js:87:46)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "- false\n+ true\n"
               },
-              "uuid": "da89ec12-a75d-433c-a8e7-24b0a864aa8a",
-              "parentUUID": "4a802c17-e5b9-45e4-8e9e-69104ab9dea6",
+              "uuid": "e97ea94e-76ae-4555-9b88-174de3612a30",
+              "parentUUID": "8e4ff55b-e74f-4cb5-851d-ced36375d0cf",
               "isHook": false,
               "skipped": false
             }
@@ -1908,7 +1908,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "da89ec12-a75d-433c-a8e7-24b0a864aa8a"
+            "e97ea94e-76ae-4555-9b88-174de3612a30"
           ],
           "pending": [],
           "skipped": [],
@@ -1918,7 +1918,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "ee3402e2-695e-4160-95ce-882ae5bd6cc7",
+          "uuid": "26a7aafa-2cf7-4ac4-97fb-cdc0ab2df9fb",
           "title": "Simple isEmpty test with null",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isEmpty.test.js",
           "file": "/test/isEmpty.test.js",
@@ -1938,15 +1938,15 @@
               "context": null,
               "code": "expect(isEmpty(null)).equal(true)",
               "err": {},
-              "uuid": "7142ef94-02cf-45c0-858e-242b8ab804b8",
-              "parentUUID": "ee3402e2-695e-4160-95ce-882ae5bd6cc7",
+              "uuid": "6afb8116-2f2f-4208-8c56-37a784adff32",
+              "parentUUID": "26a7aafa-2cf7-4ac4-97fb-cdc0ab2df9fb",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "7142ef94-02cf-45c0-858e-242b8ab804b8"
+            "6afb8116-2f2f-4208-8c56-37a784adff32"
           ],
           "failures": [],
           "pending": [],
@@ -1957,7 +1957,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "e0e73aa2-45e8-4af6-9c67-7f87deb784d2",
+          "uuid": "7082b0a6-d598-41f0-a3cd-574c751f9117",
           "title": "Simple isEmpty test with int",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isEmpty.test.js",
           "file": "/test/isEmpty.test.js",
@@ -1977,15 +1977,15 @@
               "context": null,
               "code": "expect(isEmpty(1)).equal(true)",
               "err": {},
-              "uuid": "162d0d21-64b5-4f98-848b-c8fbaeb1dc3b",
-              "parentUUID": "e0e73aa2-45e8-4af6-9c67-7f87deb784d2",
+              "uuid": "c3b744a4-7379-48af-a470-ea40c861c59d",
+              "parentUUID": "7082b0a6-d598-41f0-a3cd-574c751f9117",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "162d0d21-64b5-4f98-848b-c8fbaeb1dc3b"
+            "c3b744a4-7379-48af-a470-ea40c861c59d"
           ],
           "failures": [],
           "pending": [],
@@ -1996,7 +1996,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "e3ec80e7-d3d5-49e0-87a9-23acd7b9fed3",
+          "uuid": "3df1f549-30d2-454c-81c3-eca3e45be1f9",
           "title": "Simple isEmpty test with char",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isEmpty.test.js",
           "file": "/test/isEmpty.test.js",
@@ -2007,7 +2007,7 @@
               "title": "a -> falsee",
               "fullTitle": "Simple isEmpty test with char a -> falsee",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -2016,26 +2016,26 @@
               "context": null,
               "code": "expect(isEmpty('a')).equal(false)",
               "err": {},
-              "uuid": "e37836ae-9d53-483f-9dbf-5f8b7546f4ae",
-              "parentUUID": "e3ec80e7-d3d5-49e0-87a9-23acd7b9fed3",
+              "uuid": "08271734-08b5-44dd-b27d-cac06ea3a834",
+              "parentUUID": "3df1f549-30d2-454c-81c3-eca3e45be1f9",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "e37836ae-9d53-483f-9dbf-5f8b7546f4ae"
+            "08271734-08b5-44dd-b27d-cac06ea3a834"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "e4530a08-55d6-4f3f-8736-de12c1b8d981",
+          "uuid": "89a5ced6-2f73-4cd3-b882-0acfa62c0126",
           "title": "Simple isEmpty test with empty char",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isEmpty.test.js",
           "file": "/test/isEmpty.test.js",
@@ -2055,15 +2055,15 @@
               "context": null,
               "code": "expect(isEmpty('')).equal(true)",
               "err": {},
-              "uuid": "20c67926-a658-422d-b8a3-5719d0b94ac2",
-              "parentUUID": "e4530a08-55d6-4f3f-8736-de12c1b8d981",
+              "uuid": "cce5cb94-131e-485f-b116-36173179d87f",
+              "parentUUID": "89a5ced6-2f73-4cd3-b882-0acfa62c0126",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "20c67926-a658-422d-b8a3-5719d0b94ac2"
+            "cce5cb94-131e-485f-b116-36173179d87f"
           ],
           "failures": [],
           "pending": [],
@@ -2074,7 +2074,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "a944cc7b-25f4-4162-8bd1-410472f38d22",
+          "uuid": "bbd51f37-7730-43f7-a894-db9670cd6b29",
           "title": "Simple isEmpty test with bool",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isEmpty.test.js",
           "file": "/test/isEmpty.test.js",
@@ -2094,15 +2094,15 @@
               "context": null,
               "code": "expect(isEmpty(true)).equal(true)",
               "err": {},
-              "uuid": "d1842516-e877-4b6e-b848-3380bc795d09",
-              "parentUUID": "a944cc7b-25f4-4162-8bd1-410472f38d22",
+              "uuid": "a88395fa-0597-4fd0-ba95-a03af55c9b79",
+              "parentUUID": "bbd51f37-7730-43f7-a894-db9670cd6b29",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "d1842516-e877-4b6e-b848-3380bc795d09"
+            "a88395fa-0597-4fd0-ba95-a03af55c9b79"
           ],
           "failures": [],
           "pending": [],
@@ -2113,7 +2113,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "50721636-5add-44d2-93c1-90066ed12d05",
+          "uuid": "5b43b31b-31c9-4be2-9327-9930ff14dcb6",
           "title": "isEmpty test with map",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isEmpty.test.js",
           "file": "/test/isEmpty.test.js",
@@ -2133,15 +2133,15 @@
               "context": null,
               "code": "expect(isEmpty({ a: 1 })).equal(false)",
               "err": {},
-              "uuid": "621dd641-37f9-4beb-9c17-6a952d8eac9c",
-              "parentUUID": "50721636-5add-44d2-93c1-90066ed12d05",
+              "uuid": "444945df-d26c-4f19-b86d-d785fe2edd81",
+              "parentUUID": "5b43b31b-31c9-4be2-9327-9930ff14dcb6",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "621dd641-37f9-4beb-9c17-6a952d8eac9c"
+            "444945df-d26c-4f19-b86d-d785fe2edd81"
           ],
           "failures": [],
           "pending": [],
@@ -2152,7 +2152,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "fcbac6b6-5e29-4552-9407-93f70aa8826f",
+          "uuid": "04bf218e-6770-443a-bb96-dec440d60f6d",
           "title": "isEmpty test with empty map",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isEmpty.test.js",
           "file": "/test/isEmpty.test.js",
@@ -2172,15 +2172,15 @@
               "context": null,
               "code": "expect(isEmpty({ })).equal(true)",
               "err": {},
-              "uuid": "c75ecf35-789d-41dd-b401-b3ace37e87ae",
-              "parentUUID": "fcbac6b6-5e29-4552-9407-93f70aa8826f",
+              "uuid": "ac3396c0-ae04-4d5f-a579-8109d1b391d1",
+              "parentUUID": "04bf218e-6770-443a-bb96-dec440d60f6d",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "c75ecf35-789d-41dd-b401-b3ace37e87ae"
+            "ac3396c0-ae04-4d5f-a579-8109d1b391d1"
           ],
           "failures": [],
           "pending": [],
@@ -2191,7 +2191,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "5ee91b6c-913b-4739-9e0d-183e2bb30728",
+          "uuid": "8f14cf48-6952-4557-ad7b-da2833695447",
           "title": "isEmpty test with array",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isEmpty.test.js",
           "file": "/test/isEmpty.test.js",
@@ -2211,15 +2211,15 @@
               "context": null,
               "code": "expect(isEmpty([1, 2])).equal(false)",
               "err": {},
-              "uuid": "9c12f26c-8431-45f7-add8-711a9f29aa09",
-              "parentUUID": "5ee91b6c-913b-4739-9e0d-183e2bb30728",
+              "uuid": "96c858dd-9432-404d-bce1-49de77281f1f",
+              "parentUUID": "8f14cf48-6952-4557-ad7b-da2833695447",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "9c12f26c-8431-45f7-add8-711a9f29aa09"
+            "96c858dd-9432-404d-bce1-49de77281f1f"
           ],
           "failures": [],
           "pending": [],
@@ -2230,7 +2230,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "7dbae1ee-b752-4e7e-943d-794030d6332d",
+          "uuid": "2548fda2-9ef7-41a9-8336-c4e5812c9773",
           "title": "isEmpty test with empty array",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isEmpty.test.js",
           "file": "/test/isEmpty.test.js",
@@ -2250,15 +2250,15 @@
               "context": null,
               "code": "expect(isEmpty([])).equal(true)",
               "err": {},
-              "uuid": "8b872c09-b7ad-412b-b7ed-fa718e8e7fe5",
-              "parentUUID": "7dbae1ee-b752-4e7e-943d-794030d6332d",
+              "uuid": "8c92fe3c-9204-43c0-b66f-3fd1fceb9bda",
+              "parentUUID": "2548fda2-9ef7-41a9-8336-c4e5812c9773",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "8b872c09-b7ad-412b-b7ed-fa718e8e7fe5"
+            "8c92fe3c-9204-43c0-b66f-3fd1fceb9bda"
           ],
           "failures": [],
           "pending": [],
@@ -2269,7 +2269,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "277d5833-1c30-4ac2-958c-5b4dcdf6ce94",
+          "uuid": "782efe09-f52e-4def-bbb7-2dd4354b7f15",
           "title": "Simple isTypedArray test with empty array",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isTypedArray.test.js",
           "file": "/test/isTypedArray.test.js",
@@ -2289,15 +2289,15 @@
               "context": null,
               "code": "expect(isTypedArray([])).equal(false)",
               "err": {},
-              "uuid": "c8c1b414-001f-4cd7-930f-d3d2ccbb589b",
-              "parentUUID": "277d5833-1c30-4ac2-958c-5b4dcdf6ce94",
+              "uuid": "0e9012dc-d324-46b9-873c-339e6a96ed4b",
+              "parentUUID": "782efe09-f52e-4def-bbb7-2dd4354b7f15",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "c8c1b414-001f-4cd7-930f-d3d2ccbb589b"
+            "0e9012dc-d324-46b9-873c-339e6a96ed4b"
           ],
           "failures": [],
           "pending": [],
@@ -2308,7 +2308,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "ff428413-70f0-44f6-9518-fb302a108840",
+          "uuid": "e7197391-bc81-42b9-a080-ec93ba7a5cf0",
           "title": "isTypedArray test with Uint8Array array",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isTypedArray.test.js",
           "file": "/test/isTypedArray.test.js",
@@ -2328,15 +2328,15 @@
               "context": null,
               "code": "expect(isTypedArray(new Uint8Array(5))).equal(true)",
               "err": {},
-              "uuid": "4c77ba83-b0ce-4fb3-a680-ca5887c17603",
-              "parentUUID": "ff428413-70f0-44f6-9518-fb302a108840",
+              "uuid": "a284b46d-ff4f-4c51-9123-760b05f92b55",
+              "parentUUID": "e7197391-bc81-42b9-a080-ec93ba7a5cf0",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "4c77ba83-b0ce-4fb3-a680-ca5887c17603"
+            "a284b46d-ff4f-4c51-9123-760b05f92b55"
           ],
           "failures": [],
           "pending": [],
@@ -2347,7 +2347,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "5ac15cf9-cd24-47a1-9551-b514dd3c4d53",
+          "uuid": "ff9c9771-f5a1-40dd-87d4-f200f7118a25",
           "title": "isTypedArray test with Float32Array array",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isTypedArray.test.js",
           "file": "/test/isTypedArray.test.js",
@@ -2367,15 +2367,15 @@
               "context": null,
               "code": "expect(isTypedArray(new Float32Array(5))).equal(true)",
               "err": {},
-              "uuid": "c63b1983-613d-4e56-9c95-c698efc7b52b",
-              "parentUUID": "5ac15cf9-cd24-47a1-9551-b514dd3c4d53",
+              "uuid": "5d73a823-6d87-459d-a0d0-e24c613c70fd",
+              "parentUUID": "ff9c9771-f5a1-40dd-87d4-f200f7118a25",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "c63b1983-613d-4e56-9c95-c698efc7b52b"
+            "5d73a823-6d87-459d-a0d0-e24c613c70fd"
           ],
           "failures": [],
           "pending": [],
@@ -2386,7 +2386,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "dbb7d567-4225-4d2d-a0f1-acbd80919f86",
+          "uuid": "bd1a1a59-28c9-4e7d-bbd8-15ea850700be",
           "title": "isTypedArray test with array",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isTypedArray.test.js",
           "file": "/test/isTypedArray.test.js",
@@ -2406,15 +2406,15 @@
               "context": null,
               "code": "expect(isTypedArray(['a', 'b'])).equal(false)",
               "err": {},
-              "uuid": "afd46738-4738-403d-8656-b389ea0eecb1",
-              "parentUUID": "dbb7d567-4225-4d2d-a0f1-acbd80919f86",
+              "uuid": "7d927efd-775a-46b5-a7bb-dd324776c7f4",
+              "parentUUID": "bd1a1a59-28c9-4e7d-bbd8-15ea850700be",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "afd46738-4738-403d-8656-b389ea0eecb1"
+            "7d927efd-775a-46b5-a7bb-dd324776c7f4"
           ],
           "failures": [],
           "pending": [],
@@ -2425,7 +2425,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "a8c67879-35d5-4579-ac6c-5d133d111573",
+          "uuid": "e40b4648-489b-44d4-9a7d-e9c571cf130b",
           "title": "Memoize test with toString and int",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/memoize.test.js",
           "file": "/test/memoize.test.js",
@@ -2449,8 +2449,8 @@
                 "estack": "AssertionError: expected '4' to equal '3'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/memoize.test.js:44:19)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "- 4\n+ 3\n"
               },
-              "uuid": "392d66af-08d4-46ab-be3f-c4329219bd4a",
-              "parentUUID": "a8c67879-35d5-4579-ac6c-5d133d111573",
+              "uuid": "ec0f102e-7381-49b6-8b84-adae35f358ad",
+              "parentUUID": "e40b4648-489b-44d4-9a7d-e9c571cf130b",
               "isHook": false,
               "skipped": false
             }
@@ -2458,7 +2458,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "392d66af-08d4-46ab-be3f-c4329219bd4a"
+            "ec0f102e-7381-49b6-8b84-adae35f358ad"
           ],
           "pending": [],
           "skipped": [],
@@ -2468,7 +2468,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "72f29342-05f6-4b9a-8066-4c89cae01a41",
+          "uuid": "813d525c-5ee9-4162-b936-7717edd19a9b",
           "title": "Memoize test with toString and array",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/memoize.test.js",
           "file": "/test/memoize.test.js",
@@ -2488,15 +2488,15 @@
               "context": null,
               "code": "const a = [1, 2, 3]\nconst ts = memoize(toString)\nts(a)\na[0] = 2\nexpect(ts(a)).equal('1,2,3')",
               "err": {},
-              "uuid": "87c1e205-a4e7-42cf-9bf4-608d219c44dc",
-              "parentUUID": "72f29342-05f6-4b9a-8066-4c89cae01a41",
+              "uuid": "e7528814-034c-42f8-bf52-00709558f4d2",
+              "parentUUID": "813d525c-5ee9-4162-b936-7717edd19a9b",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "87c1e205-a4e7-42cf-9bf4-608d219c44dc"
+            "e7528814-034c-42f8-bf52-00709558f4d2"
           ],
           "failures": [],
           "pending": [],
@@ -2507,7 +2507,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "90ce415f-87a4-4bcb-9186-686c1b155fa5",
+          "uuid": "429f282d-a2c4-4f5e-8751-91c15aaf1cd2",
           "title": "Memoize test with words",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/memoize.test.js",
           "file": "/test/memoize.test.js",
@@ -2531,8 +2531,8 @@
                 "estack": "AssertionError: expected [ 'Mikko', 'Jukka', 'Maija' ] to deeply equal [ 'Mikko', 'Jukka' ]\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/memoize.test.js:68:27)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": " [\n   \"Mikko\"\n   \"Jukka\"\n-   \"Maija\"\n ]\n"
               },
-              "uuid": "38fa3582-18d1-4588-9369-454ebfa1c2d3",
-              "parentUUID": "90ce415f-87a4-4bcb-9186-686c1b155fa5",
+              "uuid": "a347f0b8-e926-4b9c-9b63-b59db0d01f8f",
+              "parentUUID": "429f282d-a2c4-4f5e-8751-91c15aaf1cd2",
               "isHook": false,
               "skipped": false
             }
@@ -2540,7 +2540,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "38fa3582-18d1-4588-9369-454ebfa1c2d3"
+            "a347f0b8-e926-4b9c-9b63-b59db0d01f8f"
           ],
           "pending": [],
           "skipped": [],
@@ -2550,7 +2550,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "587b4aa3-6ac7-4917-a13e-fd8d141359b2",
+          "uuid": "e9ba3b40-4d1f-4c3c-837f-71df5430f671",
           "title": "Memoize test with reduce",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/memoize.test.js",
           "file": "/test/memoize.test.js",
@@ -2561,7 +2561,7 @@
               "title": "rd(a, (sum, n) => sum + n, 0) -> 6",
               "fullTitle": "Memoize test with reduce rd(a, (sum, n) => sum + n, 0) -> 6",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -2570,26 +2570,26 @@
               "context": null,
               "code": "const a = [1, 5]\nconst rd = memoize(reduce)\nrd(a, (sum, n) => sum + n, 0)\na[0] = 5\nexpect(rd(a, (sum, n) => sum + n, 0)).equal(6)",
               "err": {},
-              "uuid": "c2ecee58-6acb-458d-89aa-f708072f9041",
-              "parentUUID": "587b4aa3-6ac7-4917-a13e-fd8d141359b2",
+              "uuid": "17bf0728-55e7-4a09-987f-689f2823c9ed",
+              "parentUUID": "e9ba3b40-4d1f-4c3c-837f-71df5430f671",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "c2ecee58-6acb-458d-89aa-f708072f9041"
+            "17bf0728-55e7-4a09-987f-689f2823c9ed"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "a8d5072f-d5cd-4769-a16e-c1ff7507d05b",
+          "uuid": "cc4c2b80-08c6-4cd7-9c3f-e795c3ee9a75",
           "title": "Memoize test with eq",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/memoize.test.js",
           "file": "/test/memoize.test.js",
@@ -2613,8 +2613,8 @@
                 "estack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/memoize.test.js:93:21)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "- false\n+ true\n"
               },
-              "uuid": "ba8d8f2f-266f-4d79-acd6-8394183a83aa",
-              "parentUUID": "a8d5072f-d5cd-4769-a16e-c1ff7507d05b",
+              "uuid": "383b5a68-e011-4be1-b27c-655ba671332c",
+              "parentUUID": "cc4c2b80-08c6-4cd7-9c3f-e795c3ee9a75",
               "isHook": false,
               "skipped": false
             }
@@ -2622,7 +2622,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "ba8d8f2f-266f-4d79-acd6-8394183a83aa"
+            "383b5a68-e011-4be1-b27c-655ba671332c"
           ],
           "pending": [],
           "skipped": [],
@@ -2632,7 +2632,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "13060163-bfe1-4698-bddd-37356b1fc42b",
+          "uuid": "92f20be4-4ac8-48a8-b74c-0f85bcffe65a",
           "title": "Simple toInteger test with null",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
           "file": "/test/toInteger.test.js",
@@ -2652,15 +2652,15 @@
               "context": null,
               "code": "expect(toInteger(null)).equal(0)",
               "err": {},
-              "uuid": "7094a6b9-df04-49bb-aeba-fd3233d2187b",
-              "parentUUID": "13060163-bfe1-4698-bddd-37356b1fc42b",
+              "uuid": "d71d6a22-34cb-4f09-a4f3-285a978cdba5",
+              "parentUUID": "92f20be4-4ac8-48a8-b74c-0f85bcffe65a",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "7094a6b9-df04-49bb-aeba-fd3233d2187b"
+            "d71d6a22-34cb-4f09-a4f3-285a978cdba5"
           ],
           "failures": [],
           "pending": [],
@@ -2671,7 +2671,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "2069df18-a27f-43a7-8290-e7c2debe3686",
+          "uuid": "e8ec0267-4dac-45ca-b215-0201bea0c91b",
           "title": "Simple toInteger test with 1",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
           "file": "/test/toInteger.test.js",
@@ -2691,15 +2691,15 @@
               "context": null,
               "code": "expect(toInteger(1)).equal(1)",
               "err": {},
-              "uuid": "0bf460c6-7a9f-4dd0-af30-03a57412379f",
-              "parentUUID": "2069df18-a27f-43a7-8290-e7c2debe3686",
+              "uuid": "542d5eae-9dbe-4413-ba1d-259d52603d62",
+              "parentUUID": "e8ec0267-4dac-45ca-b215-0201bea0c91b",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "0bf460c6-7a9f-4dd0-af30-03a57412379f"
+            "542d5eae-9dbe-4413-ba1d-259d52603d62"
           ],
           "failures": [],
           "pending": [],
@@ -2710,7 +2710,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "69d726bd-978c-4745-99e5-1d86ff470b43",
+          "uuid": "0cc691ea-e22e-4ccf-8750-9f4af9037810",
           "title": "Simple toInteger test with -1",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
           "file": "/test/toInteger.test.js",
@@ -2730,15 +2730,15 @@
               "context": null,
               "code": "expect(toInteger(-1)).equal(-1)",
               "err": {},
-              "uuid": "57c93959-c0c1-472f-9012-562936843412",
-              "parentUUID": "69d726bd-978c-4745-99e5-1d86ff470b43",
+              "uuid": "959491c1-93d8-49f7-8227-83e11279c603",
+              "parentUUID": "0cc691ea-e22e-4ccf-8750-9f4af9037810",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "57c93959-c0c1-472f-9012-562936843412"
+            "959491c1-93d8-49f7-8227-83e11279c603"
           ],
           "failures": [],
           "pending": [],
@@ -2749,7 +2749,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "a6838935-be70-42c8-8fd0-0b529ad228a4",
+          "uuid": "1e1dafcc-c1a9-454b-8eca-051db2f5c391",
           "title": "Simple toInteger test with 0",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
           "file": "/test/toInteger.test.js",
@@ -2760,7 +2760,7 @@
               "title": "0 -> 0",
               "fullTitle": "Simple toInteger test with 0 0 -> 0",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -2769,26 +2769,26 @@
               "context": null,
               "code": "expect(toInteger(0)).equal(0)",
               "err": {},
-              "uuid": "d2f0f79f-4594-45db-9058-b8ef5aab74fd",
-              "parentUUID": "a6838935-be70-42c8-8fd0-0b529ad228a4",
+              "uuid": "7d75b3f6-21a2-44ba-abff-e2f530a375e6",
+              "parentUUID": "1e1dafcc-c1a9-454b-8eca-051db2f5c391",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "d2f0f79f-4594-45db-9058-b8ef5aab74fd"
+            "7d75b3f6-21a2-44ba-abff-e2f530a375e6"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "d9d91177-9699-486d-bea9-c2fddb1d5b8c",
+          "uuid": "7e4a0569-e2de-44fe-aa9b-4147b85fa3e8",
           "title": "toInteger test with inf",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
           "file": "/test/toInteger.test.js",
@@ -2808,15 +2808,15 @@
               "context": null,
               "code": "expect(toInteger(Infinity)).equal(1.7976931348623157e+308)",
               "err": {},
-              "uuid": "7087f6f4-144e-4833-b85c-67e82e760b79",
-              "parentUUID": "d9d91177-9699-486d-bea9-c2fddb1d5b8c",
+              "uuid": "bfe363e1-b54c-4b71-ba48-1ac83f65d62a",
+              "parentUUID": "7e4a0569-e2de-44fe-aa9b-4147b85fa3e8",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "7087f6f4-144e-4833-b85c-67e82e760b79"
+            "bfe363e1-b54c-4b71-ba48-1ac83f65d62a"
           ],
           "failures": [],
           "pending": [],
@@ -2827,7 +2827,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "bec6b51f-bc8c-46f1-87d1-ea04a066aaa3",
+          "uuid": "d08116dd-07a6-4456-82fb-9aa98c149f24",
           "title": "toInteger test with Number.MIN_VALUE",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
           "file": "/test/toInteger.test.js",
@@ -2847,15 +2847,15 @@
               "context": null,
               "code": "expect(toInteger(Number.MIN_VALUE)).equal(0)",
               "err": {},
-              "uuid": "52eacfca-7abf-424f-bb55-a501ce8dd740",
-              "parentUUID": "bec6b51f-bc8c-46f1-87d1-ea04a066aaa3",
+              "uuid": "535b0d63-7d79-40e2-a991-163791742555",
+              "parentUUID": "d08116dd-07a6-4456-82fb-9aa98c149f24",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "52eacfca-7abf-424f-bb55-a501ce8dd740"
+            "535b0d63-7d79-40e2-a991-163791742555"
           ],
           "failures": [],
           "pending": [],
@@ -2866,7 +2866,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "53e8fa59-024f-4e83-b138-4952b8508f76",
+          "uuid": "01a4182a-0697-4f25-859e-53651a8bf670",
           "title": "toInteger test with decimals 1",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
           "file": "/test/toInteger.test.js",
@@ -2886,15 +2886,15 @@
               "context": null,
               "code": "expect(toInteger(3.9)).equal(3)",
               "err": {},
-              "uuid": "165cdcad-a8d2-4b13-974c-0752d5feba8e",
-              "parentUUID": "53e8fa59-024f-4e83-b138-4952b8508f76",
+              "uuid": "d56cba9d-61ed-4f37-9f49-891e4c6859a6",
+              "parentUUID": "01a4182a-0697-4f25-859e-53651a8bf670",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "165cdcad-a8d2-4b13-974c-0752d5feba8e"
+            "d56cba9d-61ed-4f37-9f49-891e4c6859a6"
           ],
           "failures": [],
           "pending": [],
@@ -2905,7 +2905,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "9d7f074c-840f-415b-aff8-136620d2009e",
+          "uuid": "5cebeebe-241e-4516-b60a-795be9558e4b",
           "title": "toInteger test with decimals 2",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
           "file": "/test/toInteger.test.js",
@@ -2925,15 +2925,15 @@
               "context": null,
               "code": "expect(toInteger(3.1)).equal(3)",
               "err": {},
-              "uuid": "e0334b80-201e-46fb-bbbc-1970644df78c",
-              "parentUUID": "9d7f074c-840f-415b-aff8-136620d2009e",
+              "uuid": "0eb36ad0-4414-48d9-b2ee-c72d84b659d2",
+              "parentUUID": "5cebeebe-241e-4516-b60a-795be9558e4b",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "e0334b80-201e-46fb-bbbc-1970644df78c"
+            "0eb36ad0-4414-48d9-b2ee-c72d84b659d2"
           ],
           "failures": [],
           "pending": [],
@@ -2944,7 +2944,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "e0637edd-7650-4cdd-9d10-b26530c2bf0a",
+          "uuid": "dc94503f-edd7-45e9-a60c-80746b41f4ea",
           "title": "toInteger test with decimal string 1",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
           "file": "/test/toInteger.test.js",
@@ -2955,7 +2955,7 @@
               "title": "3.9 -> 3",
               "fullTitle": "toInteger test with decimal string 1 3.9 -> 3",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -2964,54 +2964,15 @@
               "context": null,
               "code": "expect(toInteger('3.9')).equal(3)",
               "err": {},
-              "uuid": "41271bfd-36bd-4e76-9a4b-c5ed79ef7de3",
-              "parentUUID": "e0637edd-7650-4cdd-9d10-b26530c2bf0a",
+              "uuid": "627c157b-3120-44e6-9384-702133e50be6",
+              "parentUUID": "dc94503f-edd7-45e9-a60c-80746b41f4ea",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "41271bfd-36bd-4e76-9a4b-c5ed79ef7de3"
-          ],
-          "failures": [],
-          "pending": [],
-          "skipped": [],
-          "duration": 0,
-          "root": false,
-          "rootEmpty": false,
-          "_timeout": 2000
-        },
-        {
-          "uuid": "4e75f0be-e666-4353-a4d5-448269350908",
-          "title": "toInteger test with decimal string 2",
-          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
-          "file": "/test/toInteger.test.js",
-          "beforeHooks": [],
-          "afterHooks": [],
-          "tests": [
-            {
-              "title": "3.1 -> 3",
-              "fullTitle": "toInteger test with decimal string 2 3.1 -> 3",
-              "timedOut": false,
-              "duration": 1,
-              "state": "passed",
-              "speed": "fast",
-              "pass": true,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "expect(toInteger('3.1')).equal(3)",
-              "err": {},
-              "uuid": "6fb5921a-fc0b-4de2-876a-8659a7284ed0",
-              "parentUUID": "4e75f0be-e666-4353-a4d5-448269350908",
-              "isHook": false,
-              "skipped": false
-            }
-          ],
-          "suites": [],
-          "passes": [
-            "6fb5921a-fc0b-4de2-876a-8659a7284ed0"
+            "627c157b-3120-44e6-9384-702133e50be6"
           ],
           "failures": [],
           "pending": [],
@@ -3022,7 +2983,46 @@
           "_timeout": 2000
         },
         {
-          "uuid": "dff211d1-5a81-4b88-89d5-bd8b44b0e2e9",
+          "uuid": "a44ebf88-f2e1-4ed3-86f8-c084afa55409",
+          "title": "toInteger test with decimal string 2",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
+          "file": "/test/toInteger.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "3.1 -> 3",
+              "fullTitle": "toInteger test with decimal string 2 3.1 -> 3",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toInteger('3.1')).equal(3)",
+              "err": {},
+              "uuid": "26848d3f-3a80-416d-9e9a-32d531f0f287",
+              "parentUUID": "a44ebf88-f2e1-4ed3-86f8-c084afa55409",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "26848d3f-3a80-416d-9e9a-32d531f0f287"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "a6e9ef97-f648-49c1-aefe-bbf4e6e78a32",
           "title": "toInteger test with negative decimal string",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
           "file": "/test/toInteger.test.js",
@@ -3042,15 +3042,15 @@
               "context": null,
               "code": "expect(toInteger('-3.1')).equal(-3)",
               "err": {},
-              "uuid": "97028cec-9a4c-434c-9a8d-e7ccc7b50d9c",
-              "parentUUID": "dff211d1-5a81-4b88-89d5-bd8b44b0e2e9",
+              "uuid": "d51b899a-a5ce-458c-9ec7-2e7c9fbeff12",
+              "parentUUID": "a6e9ef97-f648-49c1-aefe-bbf4e6e78a32",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "97028cec-9a4c-434c-9a8d-e7ccc7b50d9c"
+            "d51b899a-a5ce-458c-9ec7-2e7c9fbeff12"
           ],
           "failures": [],
           "pending": [],
@@ -3061,7 +3061,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "7eef86b4-0679-44ce-b510-37a63281d777",
+          "uuid": "f4e7673d-03fa-4264-8f8e-1188104dc42c",
           "title": "toInteger test with integer string",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
           "file": "/test/toInteger.test.js",
@@ -3081,15 +3081,15 @@
               "context": null,
               "code": "expect(toInteger('3')).equal(3)",
               "err": {},
-              "uuid": "403617be-59fc-4a9a-98a0-fb743729ff5e",
-              "parentUUID": "7eef86b4-0679-44ce-b510-37a63281d777",
+              "uuid": "286b19d6-e440-44ef-80ac-affeee2c9afa",
+              "parentUUID": "f4e7673d-03fa-4264-8f8e-1188104dc42c",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "403617be-59fc-4a9a-98a0-fb743729ff5e"
+            "286b19d6-e440-44ef-80ac-affeee2c9afa"
           ],
           "failures": [],
           "pending": [],
@@ -3100,7 +3100,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "e66ecee1-542d-4160-a73f-0de765b2c434",
+          "uuid": "8f4ddc16-9b93-418f-ad4c-592da6e13d3f",
           "title": "toInteger test with integer NaN",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
           "file": "/test/toInteger.test.js",
@@ -3120,15 +3120,15 @@
               "context": null,
               "code": "expect(toInteger(NaN)).equal(0)",
               "err": {},
-              "uuid": "67766999-1d86-4b5a-9c52-b0733a0648fe",
-              "parentUUID": "e66ecee1-542d-4160-a73f-0de765b2c434",
+              "uuid": "a41e2939-6323-412b-9562-7006afffb5ab",
+              "parentUUID": "8f4ddc16-9b93-418f-ad4c-592da6e13d3f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "67766999-1d86-4b5a-9c52-b0733a0648fe"
+            "a41e2939-6323-412b-9562-7006afffb5ab"
           ],
           "failures": [],
           "pending": [],
@@ -3139,7 +3139,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "ba6762fb-20af-40ba-b1f7-c040d509ed7c",
+          "uuid": "22ca294c-d5d1-4364-a2b3-a20a2cdae65a",
           "title": "Simple toString test with integer",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js",
           "file": "/test/toString.test.js",
@@ -3159,15 +3159,15 @@
               "context": null,
               "code": "expect(toString(3)).equal('3')",
               "err": {},
-              "uuid": "4d0f2f06-bc91-4a82-a66a-9f54dde556a4",
-              "parentUUID": "ba6762fb-20af-40ba-b1f7-c040d509ed7c",
+              "uuid": "2906ad20-db9b-4dd2-9796-a215d27cb6f1",
+              "parentUUID": "22ca294c-d5d1-4364-a2b3-a20a2cdae65a",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "4d0f2f06-bc91-4a82-a66a-9f54dde556a4"
+            "2906ad20-db9b-4dd2-9796-a215d27cb6f1"
           ],
           "failures": [],
           "pending": [],
@@ -3178,7 +3178,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "96178609-fcc0-4e76-9da2-7ec46c813f5d",
+          "uuid": "698c1cd1-67b1-4725-8bd7-88af55b26acd",
           "title": "Simple toString test with decimal",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js",
           "file": "/test/toString.test.js",
@@ -3198,15 +3198,15 @@
               "context": null,
               "code": "expect(toString(-3)).equal('-3')",
               "err": {},
-              "uuid": "4a4ec22f-4232-40ce-949f-5e221b112da7",
-              "parentUUID": "96178609-fcc0-4e76-9da2-7ec46c813f5d",
+              "uuid": "74b8480a-dcdc-456f-80e4-bed751ff56df",
+              "parentUUID": "698c1cd1-67b1-4725-8bd7-88af55b26acd",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "4a4ec22f-4232-40ce-949f-5e221b112da7"
+            "74b8480a-dcdc-456f-80e4-bed751ff56df"
           ],
           "failures": [],
           "pending": [],
@@ -3217,7 +3217,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "665bb797-d5d8-4eda-80a1-4b8c959c760c",
+          "uuid": "84d8adcd-1f95-4b8a-a5d5-a5735b0d915b",
           "title": "toString test with negative decimal",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js",
           "file": "/test/toString.test.js",
@@ -3241,8 +3241,8 @@
                 "estack": "AssertionError: expected '-3' to equal '-3.1'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js:24:26)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "- -3\n+ -3.1\n"
               },
-              "uuid": "e6e94967-2588-4fb7-b60c-0de766b205da",
-              "parentUUID": "665bb797-d5d8-4eda-80a1-4b8c959c760c",
+              "uuid": "fe184c1a-9025-4fa4-947a-c346815fcfe0",
+              "parentUUID": "84d8adcd-1f95-4b8a-a5d5-a5735b0d915b",
               "isHook": false,
               "skipped": false
             }
@@ -3250,7 +3250,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "e6e94967-2588-4fb7-b60c-0de766b205da"
+            "fe184c1a-9025-4fa4-947a-c346815fcfe0"
           ],
           "pending": [],
           "skipped": [],
@@ -3260,7 +3260,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "6d7ba163-8526-4359-9e94-e78b24570b84",
+          "uuid": "3831d2b0-82d3-430d-9628-7e859b1bef28",
           "title": "toString test with null",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js",
           "file": "/test/toString.test.js",
@@ -3280,15 +3280,15 @@
               "context": null,
               "code": "expect(toString(null)).equal('null')",
               "err": {},
-              "uuid": "03f974ac-83a4-4c56-8db2-0fc050d2f2f8",
-              "parentUUID": "6d7ba163-8526-4359-9e94-e78b24570b84",
+              "uuid": "74396728-eff7-4945-aa79-cd2c1e7cd148",
+              "parentUUID": "3831d2b0-82d3-430d-9628-7e859b1bef28",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "03f974ac-83a4-4c56-8db2-0fc050d2f2f8"
+            "74396728-eff7-4945-aa79-cd2c1e7cd148"
           ],
           "failures": [],
           "pending": [],
@@ -3299,7 +3299,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "4309eed1-76b4-471a-993f-00f340075518",
+          "uuid": "8e82665c-cb24-4bcb-b5c4-2eb968dfc9a5",
           "title": "toString test with inf",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js",
           "file": "/test/toString.test.js",
@@ -3319,15 +3319,15 @@
               "context": null,
               "code": "expect(toString(Infinity)).equal('Infinity')",
               "err": {},
-              "uuid": "14304aa6-60fa-49b4-a2ec-fee9f58fc8f5",
-              "parentUUID": "4309eed1-76b4-471a-993f-00f340075518",
+              "uuid": "d83adb9f-053b-4813-9ecb-703e1110bd18",
+              "parentUUID": "8e82665c-cb24-4bcb-b5c4-2eb968dfc9a5",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "14304aa6-60fa-49b4-a2ec-fee9f58fc8f5"
+            "d83adb9f-053b-4813-9ecb-703e1110bd18"
           ],
           "failures": [],
           "pending": [],
@@ -3338,7 +3338,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "f2c35c32-959a-46b8-bb38-440f0b8d19a3",
+          "uuid": "bebd504b-54e6-4756-85cf-c6e7fade1ca9",
           "title": "toString test with inf",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js",
           "file": "/test/toString.test.js",
@@ -3358,15 +3358,15 @@
               "context": null,
               "code": "expect(toString(Infinity)).equal('Infinity')",
               "err": {},
-              "uuid": "28bc73f7-c8a5-40ad-a9e1-67fd23edf4e4",
-              "parentUUID": "f2c35c32-959a-46b8-bb38-440f0b8d19a3",
+              "uuid": "6a84b50e-1c06-4f0f-9239-c495713bd301",
+              "parentUUID": "bebd504b-54e6-4756-85cf-c6e7fade1ca9",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "28bc73f7-c8a5-40ad-a9e1-67fd23edf4e4"
+            "6a84b50e-1c06-4f0f-9239-c495713bd301"
           ],
           "failures": [],
           "pending": [],
@@ -3377,7 +3377,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "d899bc87-f54e-413e-aafe-6216f3decd98",
+          "uuid": "bada7872-11f8-49d1-97b1-f2df6aeaf0b4",
           "title": "toString test with array",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js",
           "file": "/test/toString.test.js",
@@ -3397,15 +3397,15 @@
               "context": null,
               "code": "expect(toString([-1, 0, 1])).equal('-1,0,1')",
               "err": {},
-              "uuid": "01813b64-f3e2-4813-88ac-6f8444eccf88",
-              "parentUUID": "d899bc87-f54e-413e-aafe-6216f3decd98",
+              "uuid": "28550378-4798-4dce-9f80-8a0a82eaf79d",
+              "parentUUID": "bada7872-11f8-49d1-97b1-f2df6aeaf0b4",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "01813b64-f3e2-4813-88ac-6f8444eccf88"
+            "28550378-4798-4dce-9f80-8a0a82eaf79d"
           ],
           "failures": [],
           "pending": [],
@@ -3416,7 +3416,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "d4e4f995-b1a4-4a0d-91d7-95c63cf14071",
+          "uuid": "57a6fda2-d139-43b0-a5fd-c38377bdd384",
           "title": "toString test with string",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js",
           "file": "/test/toString.test.js",
@@ -3436,15 +3436,15 @@
               "context": null,
               "code": "expect(toString('-1,0,1')).equal('-1,0,1')",
               "err": {},
-              "uuid": "eb5cbe2b-b508-4155-89f9-913dda80b1bc",
-              "parentUUID": "d4e4f995-b1a4-4a0d-91d7-95c63cf14071",
+              "uuid": "29d6911d-ad77-485b-9a0e-b1970d4e9a14",
+              "parentUUID": "57a6fda2-d139-43b0-a5fd-c38377bdd384",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "eb5cbe2b-b508-4155-89f9-913dda80b1bc"
+            "29d6911d-ad77-485b-9a0e-b1970d4e9a14"
           ],
           "failures": [],
           "pending": [],
@@ -3455,7 +3455,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "330be557-a548-4f5b-8387-942cb03b5a63",
+          "uuid": "26341617-523e-4203-9c84-c1a06a5a9620",
           "title": "toString test with bool",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js",
           "file": "/test/toString.test.js",
@@ -3466,7 +3466,7 @@
               "title": "true -> true",
               "fullTitle": "toString test with bool true -> true",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -3475,26 +3475,26 @@
               "context": null,
               "code": "expect(toString(true)).equal('true')",
               "err": {},
-              "uuid": "8e739d2e-6f4a-464a-bd2b-0cd24187ba8b",
-              "parentUUID": "330be557-a548-4f5b-8387-942cb03b5a63",
+              "uuid": "59389503-363f-4ca5-9223-99ccf12ca080",
+              "parentUUID": "26341617-523e-4203-9c84-c1a06a5a9620",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "8e739d2e-6f4a-464a-bd2b-0cd24187ba8b"
+            "59389503-363f-4ca5-9223-99ccf12ca080"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 0,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "6b6f5ed9-7ba2-408b-a60a-d9dcc85cab31",
+          "uuid": "9a4fb59c-d9b4-43cb-8a0f-a66e1b6ca790",
           "title": "toString test with symbol",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js",
           "file": "/test/toString.test.js",
@@ -3505,7 +3505,7 @@
               "title": "x -> x",
               "fullTitle": "toString test with symbol x -> x",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -3518,8 +3518,8 @@
                 "estack": "AssertionError: expected 'Symbol(x)' to equal 'x'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js:74:25)\n    at processImmediate (node:internal/timers:464:21)",
                 "diff": "- Symbol(x)\n+ x\n"
               },
-              "uuid": "38fc8403-d6c4-4e34-9966-2465d3d145d7",
-              "parentUUID": "6b6f5ed9-7ba2-408b-a60a-d9dcc85cab31",
+              "uuid": "8641889d-f365-4027-8031-752b4ebb2b8a",
+              "parentUUID": "9a4fb59c-d9b4-43cb-8a0f-a66e1b6ca790",
               "isHook": false,
               "skipped": false
             }
@@ -3527,17 +3527,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "38fc8403-d6c4-4e34-9966-2465d3d145d7"
+            "8641889d-f365-4027-8031-752b4ebb2b8a"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "6b3bff53-9ebb-4edc-9aec-f0fd21f653f7",
+          "uuid": "673e2841-44ad-40ec-8fd3-b7d398dea98f",
           "title": "Simple words test with one word",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/words.test.js",
           "file": "/test/words.test.js",
@@ -3557,15 +3557,15 @@
               "context": null,
               "code": "expect(words('Mikko')).to.deep.equal(['Mikko'])",
               "err": {},
-              "uuid": "40c9e4d7-77f7-4fee-8c9a-198739685482",
-              "parentUUID": "6b3bff53-9ebb-4edc-9aec-f0fd21f653f7",
+              "uuid": "c0fb4536-ffbf-44fd-ba22-c4ef94411a2f",
+              "parentUUID": "673e2841-44ad-40ec-8fd3-b7d398dea98f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "40c9e4d7-77f7-4fee-8c9a-198739685482"
+            "c0fb4536-ffbf-44fd-ba22-c4ef94411a2f"
           ],
           "failures": [],
           "pending": [],
@@ -3576,7 +3576,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "d7837b78-765c-43c5-9b73-49ea3fcd4b2d",
+          "uuid": "35b6d7bf-9c53-4485-b2b2-c15f310fadec",
           "title": "Simple words test with two words",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/words.test.js",
           "file": "/test/words.test.js",
@@ -3596,15 +3596,15 @@
               "context": null,
               "code": "expect(words('Mikko, Jukka')).to.deep.equal(['Mikko', 'Jukka'])",
               "err": {},
-              "uuid": "6d684484-c55d-49b5-8c6f-558018b38346",
-              "parentUUID": "d7837b78-765c-43c5-9b73-49ea3fcd4b2d",
+              "uuid": "b2a03902-fe99-48fb-b5fa-de518b56ee3a",
+              "parentUUID": "35b6d7bf-9c53-4485-b2b2-c15f310fadec",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "6d684484-c55d-49b5-8c6f-558018b38346"
+            "b2a03902-fe99-48fb-b5fa-de518b56ee3a"
           ],
           "failures": [],
           "pending": [],
@@ -3615,7 +3615,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "b641a507-ef9b-44d8-a0d6-b2ecf2e6ce7e",
+          "uuid": "0ac072e6-1429-4a39-aebd-ca29fe6f197b",
           "title": "Simple words test with three words",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/words.test.js",
           "file": "/test/words.test.js",
@@ -3635,15 +3635,15 @@
               "context": null,
               "code": "expect(words('Mikko, Jukka & Maija')).to.deep.equal(['Mikko', 'Jukka', 'Maija'])",
               "err": {},
-              "uuid": "f21415d5-b957-4b95-b126-43e371eba115",
-              "parentUUID": "b641a507-ef9b-44d8-a0d6-b2ecf2e6ce7e",
+              "uuid": "0fe45eef-edbc-403c-9ca2-2fb489f820e6",
+              "parentUUID": "0ac072e6-1429-4a39-aebd-ca29fe6f197b",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "f21415d5-b957-4b95-b126-43e371eba115"
+            "0fe45eef-edbc-403c-9ca2-2fb489f820e6"
           ],
           "failures": [],
           "pending": [],
@@ -3654,7 +3654,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "9593dbe5-102b-431e-b59c-1e560623d047",
+          "uuid": "638bdb5f-4e55-491f-be2c-fb2e77a287d5",
           "title": "Simple words test with three words, include and sign",
           "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/words.test.js",
           "file": "/test/words.test.js",
@@ -3674,15 +3674,15 @@
               "context": null,
               "code": "expect(words('Mikko, Jukka & Maija', /[^, ]+/g)).to.deep.equal(['Mikko', 'Jukka', '&', 'Maija'])",
               "err": {},
-              "uuid": "44c1ac62-2516-42fa-9864-34995401f939",
-              "parentUUID": "9593dbe5-102b-431e-b59c-1e560623d047",
+              "uuid": "872acf30-1de5-45bc-b625-230d06e657b1",
+              "parentUUID": "638bdb5f-4e55-491f-be2c-fb2e77a287d5",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "44c1ac62-2516-42fa-9864-34995401f939"
+            "872acf30-1de5-45bc-b625-230d06e657b1"
           ],
           "failures": [],
           "pending": [],
