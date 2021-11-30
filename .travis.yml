@@ -10,15 +10,20 @@ env:
 jobs:
   include:
     - stage: "tests"
-    - script: npm test
-      name: "npm test"
+    - name: "npm test"
+      script: npm test
 
-    # tests are ok to fail as this only generates the html report
-    - script: npm test -- --reporter mochawesome || true
-      name: "mochaawesome report"
+    - name: "mochaawesome report"
       env:
         # github-pages only recognizes index.html
         - MOCHAWESOME_REPORTFILENAME=index.html
+
+      install:
+        npm install --no-save mochaawesome
+
+      # tests are ok to fail as this only generates the html report
+      script: npm test -- --reporter mochawesome || true
+
       # Deploy mochawesome HTML to the repo's github pages
       deploy:
         provider: pages:git
@@ -30,10 +35,12 @@ jobs:
 
     # c8 generates the lcov coverage files, which coveralls script passes to
     # coveralls.io
-    - script:
+    - name: "coveralls"
+      install:
+        npm install --no-save coveralls
+      script:
       # Failing tests should not fail coverage
-      - npm run c8 -- --reporter=lcovonly mocha || true
-      - npm run coveralls -- -v < coverage/lcov.info
-      name: "coveralls"
+      - ./node_modules/.bin/c8 --reporter=lcovonly mocha || true
+      - ./node_modules/.bin/coveralls -v < coverage/lcov.info
       notifications:
         webhooks: https://coveralls.io/webhook
