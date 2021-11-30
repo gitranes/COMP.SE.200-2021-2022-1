@@ -28,9 +28,9 @@ jobs:
         on:
           branch: main # default is still "master" with travis CI :D
 
-      - script:
-        - npm c8 -- --reporter=lcovonly mocha || true
-        - npm run coveralls -- < coverage/lcov.info
-        name: "coveralls"
-        notifications:
-          webhooks: https://coveralls.io/webhook
+    - script:
+      - npm c8 -- --reporter=lcovonly mocha || true
+      - npm run coveralls -- < coverage/lcov.info
+      name: "coveralls"
+      notifications:
+        webhooks: https://coveralls.io/webhook
