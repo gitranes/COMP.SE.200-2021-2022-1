@@ -3,3 +3,12 @@ node_js:
   - 'lts/*' # Latest LTS Node.js version
 script:
   - npm test -- --reporter mochawesome
+# Deploy mochawesome HTML to github pages
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  local_dir: mochawesome-report
+  on:
+    branch: main
