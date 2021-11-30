@@ -13,6 +13,9 @@ jobs:
     # mochawesome is allowed to fail, as it only generates the report
     - script: npm test -- --reporter mochawesome || true
       name: "mochaawesome report"
+      env:
+        # github pages only recognizes index.html
+        - MOCHAWESOME_REPORTFILENAME=index.html
       # Deploy mochawesome HTML to github pages
       deploy:
         provider: pages:git
