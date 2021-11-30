@@ -1,0 +1,3727 @@
+{
+  "stats": {
+    "suites": 90,
+    "tests": 90,
+    "passes": 51,
+    "pending": 0,
+    "failures": 39,
+    "start": "2021-11-30T19:01:25.792Z",
+    "end": "2021-11-30T19:01:25.936Z",
+    "duration": 144,
+    "testsRegistered": 90,
+    "passPercent": 56.666666666666664,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "b77db689-6a24-4e75-98cd-c782e91bafbf",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b81a9ad0-d64e-4e16-9b83-633b2e65ce72",
+          "title": "One string camel case",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
+          "file": "/test/camelCase.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "hello -> hello",
+              "fullTitle": "One string camel case hello -> hello",
+              "timedOut": false,
+              "duration": 2,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(camelCase('hello')).equal('hello')",
+              "err": {
+                "message": "AssertionError: expected ' hello' to equal 'hello'",
+                "estack": "AssertionError: expected ' hello' to equal 'hello'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:10:32)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "-  hello\n+ hello\n"
+              },
+              "uuid": "1a541688-5f8b-4716-88a4-b15f6f3733e7",
+              "parentUUID": "b81a9ad0-d64e-4e16-9b83-633b2e65ce72",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "1a541688-5f8b-4716-88a4-b15f6f3733e7"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 2,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "919a11d4-2110-4603-b8eb-4b3d6ab6c1c1",
+          "title": "One number camel case",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
+          "file": "/test/camelCase.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "123 -> 123",
+              "fullTitle": "One number camel case 123 -> 123",
+              "timedOut": false,
+              "duration": 1,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(camelCase('123')).equal('123')",
+              "err": {
+                "message": "AssertionError: expected ' 123' to equal '123'",
+                "estack": "AssertionError: expected ' 123' to equal '123'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:17:30)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "-  123\n+ 123\n"
+              },
+              "uuid": "0f79dc81-11ef-4940-8eac-21af45459a68",
+              "parentUUID": "919a11d4-2110-4603-b8eb-4b3d6ab6c1c1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "0f79dc81-11ef-4940-8eac-21af45459a68"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "92ca1edc-7d5c-48ba-a2aa-6ff4b0025905",
+          "title": "From lowercase to camel case",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
+          "file": "/test/camelCase.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "hello world -> helloWorld",
+              "fullTitle": "From lowercase to camel case hello world -> helloWorld",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(camelCase('hello world')).equal('helloWorld')",
+              "err": {
+                "message": "AssertionError: expected ' helloWorld' to equal 'helloWorld'",
+                "estack": "AssertionError: expected ' helloWorld' to equal 'helloWorld'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:24:38)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "-  helloWorld\n+ helloWorld\n"
+              },
+              "uuid": "9c3aadf7-3af0-4c57-8251-a41512c03f25",
+              "parentUUID": "92ca1edc-7d5c-48ba-a2aa-6ff4b0025905",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "9c3aadf7-3af0-4c57-8251-a41512c03f25"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "884b2613-900d-4a34-8342-7e6672b863bc",
+          "title": "String and number to camel case",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
+          "file": "/test/camelCase.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "number 2 -> number2",
+              "fullTitle": "String and number to camel case number 2 -> number2",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(camelCase('number 2')).equal('number2')",
+              "err": {
+                "message": "AssertionError: expected ' number2' to equal 'number2'",
+                "estack": "AssertionError: expected ' number2' to equal 'number2'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:31:35)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "-  number2\n+ number2\n"
+              },
+              "uuid": "9326c916-253c-4d25-9523-fee016c2575a",
+              "parentUUID": "884b2613-900d-4a34-8342-7e6672b863bc",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "9326c916-253c-4d25-9523-fee016c2575a"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "f47f3a6e-07d1-40bf-a3a1-ec87ded0b5f2",
+          "title": "Multiple words to camel case",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
+          "file": "/test/camelCase.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "hello big world -> helloBigWorld",
+              "fullTitle": "Multiple words to camel case hello big world -> helloBigWorld",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(camelCase('hello big world')).equal('helloBigWorld')",
+              "err": {
+                "message": "AssertionError: expected ' helloBigWorld' to equal 'helloBigWorld'",
+                "estack": "AssertionError: expected ' helloBigWorld' to equal 'helloBigWorld'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:38:42)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "-  helloBigWorld\n+ helloBigWorld\n"
+              },
+              "uuid": "b0b6d9f4-dfbf-4b2b-9ebd-59ce170bc9e8",
+              "parentUUID": "f47f3a6e-07d1-40bf-a3a1-ec87ded0b5f2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "b0b6d9f4-dfbf-4b2b-9ebd-59ce170bc9e8"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "6d0fa0ae-92e9-4d70-a2c7-0475e86cad4b",
+          "title": "Multiple words with first capitalized to camel case",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
+          "file": "/test/camelCase.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "hello big big world -> helloBigBigWorld",
+              "fullTitle": "Multiple words with first capitalized to camel case hello big big world -> helloBigBigWorld",
+              "timedOut": false,
+              "duration": 1,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(camelCase('Hello big big world')).equal('helloBigBigWorld')",
+              "err": {
+                "message": "AssertionError: expected ' helloBigBigWorld' to equal 'helloBigBigWorld'",
+                "estack": "AssertionError: expected ' helloBigBigWorld' to equal 'helloBigBigWorld'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:45:46)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "-  helloBigBigWorld\n+ helloBigBigWorld\n"
+              },
+              "uuid": "2b543d49-0d68-4000-9e0f-fb82dab3e83c",
+              "parentUUID": "6d0fa0ae-92e9-4d70-a2c7-0475e86cad4b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "2b543d49-0d68-4000-9e0f-fb82dab3e83c"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "e55ebc34-ea28-43ff-974d-555065e70dc0",
+          "title": "Simple snake case to camel case",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
+          "file": "/test/camelCase.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "snake_case -> snakeCase",
+              "fullTitle": "Simple snake case to camel case snake_case -> snakeCase",
+              "timedOut": false,
+              "duration": 1,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(camelCase('snake_case')).equal('snakeCase')",
+              "err": {
+                "message": "AssertionError: expected ' snakeCase' to equal 'snakeCase'",
+                "estack": "AssertionError: expected ' snakeCase' to equal 'snakeCase'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:52:37)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "-  snakeCase\n+ snakeCase\n"
+              },
+              "uuid": "d6d22005-d9aa-4435-b2ac-6221b440c479",
+              "parentUUID": "e55ebc34-ea28-43ff-974d-555065e70dc0",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "d6d22005-d9aa-4435-b2ac-6221b440c479"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "eb91475c-7c61-4c50-9226-4ba8941cc2f8",
+          "title": "Simple snake case with number to camel case",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
+          "file": "/test/camelCase.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "snake_123 -> snake123",
+              "fullTitle": "Simple snake case with number to camel case snake_123 -> snake123",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(camelCase('snake_123')).equal('snake123')",
+              "err": {
+                "message": "AssertionError: expected ' snake123' to equal 'snake123'",
+                "estack": "AssertionError: expected ' snake123' to equal 'snake123'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:59:36)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "-  snake123\n+ snake123\n"
+              },
+              "uuid": "1b088d26-8935-4068-8424-5aa12dcfbce3",
+              "parentUUID": "eb91475c-7c61-4c50-9226-4ba8941cc2f8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "1b088d26-8935-4068-8424-5aa12dcfbce3"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "8041601b-8b59-4c8c-b802-1d59c897bf3b",
+          "title": "Leading and trailing simple snake case to camel case",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
+          "file": "/test/camelCase.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "_snake_case_ -> snakeCase",
+              "fullTitle": "Leading and trailing simple snake case to camel case _snake_case_ -> snakeCase",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(camelCase('_snake_case_')).equal('snakeCase')",
+              "err": {
+                "message": "AssertionError: expected ' snakeCase' to equal 'snakeCase'",
+                "estack": "AssertionError: expected ' snakeCase' to equal 'snakeCase'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:66:39)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "-  snakeCase\n+ snakeCase\n"
+              },
+              "uuid": "b39337b1-8a62-48fa-ad0c-7aa27bd85b21",
+              "parentUUID": "8041601b-8b59-4c8c-b802-1d59c897bf3b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "b39337b1-8a62-48fa-ad0c-7aa27bd85b21"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "2afeb8a4-336c-44f6-bc5a-10e236733df8",
+          "title": "Double leading and trailing simple snake case with number to camel case",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
+          "file": "/test/camelCase.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "__snake_123_case__ -> snake123case",
+              "fullTitle": "Double leading and trailing simple snake case with number to camel case __snake_123_case__ -> snake123case",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(camelCase('__snake_123__')).equal('snake123')",
+              "err": {
+                "message": "AssertionError: expected ' snake123' to equal 'snake123'",
+                "estack": "AssertionError: expected ' snake123' to equal 'snake123'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:73:40)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "-  snake123\n+ snake123\n"
+              },
+              "uuid": "7e2841b6-6254-4c08-9f93-d91aafad1162",
+              "parentUUID": "2afeb8a4-336c-44f6-bc5a-10e236733df8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "7e2841b6-6254-4c08-9f93-d91aafad1162"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "b6ebf917-bc9a-4885-8af6-5388fc44a0c7",
+          "title": "Multiple snake case to camel case",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
+          "file": "/test/camelCase.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "snake_case snake_case_1 -> snakeCaseSnakeCase1",
+              "fullTitle": "Multiple snake case to camel case snake_case snake_case_1 -> snakeCaseSnakeCase1",
+              "timedOut": false,
+              "duration": 1,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(camelCase('snake_case snake_case_1')).equal('snakeCaseSnakeCase1')",
+              "err": {
+                "message": "AssertionError: expected ' snakeCaseSnakeCase1' to equal 'snakeCaseSnakeCase1'",
+                "estack": "AssertionError: expected ' snakeCaseSnakeCase1' to equal 'snakeCaseSnakeCase1'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:80:50)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "-  snakeCaseSnakeCase1\n+ snakeCaseSnakeCase1\n"
+              },
+              "uuid": "c5601079-ddd6-4a4c-92ea-56858519ff61",
+              "parentUUID": "b6ebf917-bc9a-4885-8af6-5388fc44a0c7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "c5601079-ddd6-4a4c-92ea-56858519ff61"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "dd49b4e2-ed92-4cfc-aea1-ff0118cd8f96",
+          "title": "Snake case with caps case to camel case",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
+          "file": "/test/camelCase.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "SNAKE_CASE_1 -> snakeCase1",
+              "fullTitle": "Snake case with caps case to camel case SNAKE_CASE_1 -> snakeCase1",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(camelCase('SNAKE_CASE_1')).equal('snakeCase1')",
+              "err": {
+                "message": "AssertionError: expected ' snakeCase1' to equal 'snakeCase1'",
+                "estack": "AssertionError: expected ' snakeCase1' to equal 'snakeCase1'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:87:39)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "-  snakeCase1\n+ snakeCase1\n"
+              },
+              "uuid": "e04cfc2f-2506-42be-abb8-e5a5ce3a874a",
+              "parentUUID": "dd49b4e2-ed92-4cfc-aea1-ff0118cd8f96",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "e04cfc2f-2506-42be-abb8-e5a5ce3a874a"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "b3bd75aa-6971-499a-8799-da575111d7cc",
+          "title": "Multiple snake case with caps case to camel case",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
+          "file": "/test/camelCase.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "SNAKE CASE_1 -> snakeCase1",
+              "fullTitle": "Multiple snake case with caps case to camel case SNAKE CASE_1 -> snakeCase1",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(camelCase('SNAKE CASE_1')).equal('snakeCase1')",
+              "err": {
+                "message": "AssertionError: expected ' snakeCase1' to equal 'snakeCase1'",
+                "estack": "AssertionError: expected ' snakeCase1' to equal 'snakeCase1'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:94:39)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "-  snakeCase1\n+ snakeCase1\n"
+              },
+              "uuid": "6947e03c-0d49-4dca-99cc-8b377aa2320a",
+              "parentUUID": "b3bd75aa-6971-499a-8799-da575111d7cc",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "6947e03c-0d49-4dca-99cc-8b377aa2320a"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "a037c7cc-7bf8-4c61-a324-9fef5935e6a2",
+          "title": "Redundant snake with caps case to camel case",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
+          "file": "/test/camelCase.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "SNAKE__case__1 -> snakeCase1",
+              "fullTitle": "Redundant snake with caps case to camel case SNAKE__case__1 -> snakeCase1",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(camelCase('SNAKE__case__1')).equal('snakeCase1')",
+              "err": {
+                "message": "AssertionError: expected ' snakeCase1' to equal 'snakeCase1'",
+                "estack": "AssertionError: expected ' snakeCase1' to equal 'snakeCase1'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:101:41)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "-  snakeCase1\n+ snakeCase1\n"
+              },
+              "uuid": "caa40f20-6327-45a4-94e8-abd07b9b226f",
+              "parentUUID": "a037c7cc-7bf8-4c61-a324-9fef5935e6a2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "caa40f20-6327-45a4-94e8-abd07b9b226f"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "31cd0f7c-7c8d-456e-b929-ff3c445d2326",
+          "title": "Leading and trailing redundant snake with caps case to camel case",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
+          "file": "/test/camelCase.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "__SNAKE__case__1__ -> snakeCase1",
+              "fullTitle": "Leading and trailing redundant snake with caps case to camel case __SNAKE__case__1__ -> snakeCase1",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(camelCase('__SNAKE__case__1__')).equal('snakeCase1')",
+              "err": {
+                "message": "AssertionError: expected ' snakeCase1' to equal 'snakeCase1'",
+                "estack": "AssertionError: expected ' snakeCase1' to equal 'snakeCase1'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:108:45)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "-  snakeCase1\n+ snakeCase1\n"
+              },
+              "uuid": "05a325c9-cd5a-4581-ae1c-421be6281a1a",
+              "parentUUID": "31cd0f7c-7c8d-456e-b929-ff3c445d2326",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "05a325c9-cd5a-4581-ae1c-421be6281a1a"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "e75bd83d-7ded-406a-8ddf-cfdb80f1b770",
+          "title": "Simple hyphenation to snake case",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
+          "file": "/test/camelCase.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "simple-world -> simpleWorld",
+              "fullTitle": "Simple hyphenation to snake case simple-world -> simpleWorld",
+              "timedOut": false,
+              "duration": 1,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(camelCase('simple-world')).equal('simpleWorld')",
+              "err": {
+                "message": "AssertionError: expected ' simpleWorld' to equal 'simpleWorld'",
+                "estack": "AssertionError: expected ' simpleWorld' to equal 'simpleWorld'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:115:39)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "-  simpleWorld\n+ simpleWorld\n"
+              },
+              "uuid": "6a6d3629-fea8-4cc4-9ca8-df3f4585af2c",
+              "parentUUID": "e75bd83d-7ded-406a-8ddf-cfdb80f1b770",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "6a6d3629-fea8-4cc4-9ca8-df3f4585af2c"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "50bccaec-f443-450c-8363-a3615da24343",
+          "title": "Multiple hyphenation to snake case",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
+          "file": "/test/camelCase.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "not-so-simple-123 simple-world -> notSoSimple123SimpleWorld",
+              "fullTitle": "Multiple hyphenation to snake case not-so-simple-123 simple-world -> notSoSimple123SimpleWorld",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(camelCase('not-so-simple-123 simple-world')).equal('notSoSimple123SimpleWorld')",
+              "err": {
+                "message": "AssertionError: expected ' notSoSimple123SimpleWorld' to equal 'notSoSimple123SimpleWorld'",
+                "estack": "AssertionError: expected ' notSoSimple123SimpleWorld' to equal 'notSoSimple123SimpleWorld'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:122:57)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "-  notSoSimple123SimpleWorld\n+ notSoSimple123SimpleWorld\n"
+              },
+              "uuid": "5d66caca-7e30-42a3-9b57-1b460096e7c4",
+              "parentUUID": "50bccaec-f443-450c-8363-a3615da24343",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "5d66caca-7e30-42a3-9b57-1b460096e7c4"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "e964fb25-cef1-46cd-884a-d3223b0c6529",
+          "title": "Multiple hyphenation to snake case with caps",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
+          "file": "/test/camelCase.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "HELLO-simple-world -> helloSimpleWorld",
+              "fullTitle": "Multiple hyphenation to snake case with caps HELLO-simple-world -> helloSimpleWorld",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(camelCase('Hello-simple-world')).equal('helloSimpleWorld')",
+              "err": {
+                "message": "AssertionError: expected ' helloSimpleWorld' to equal 'helloSimpleWorld'",
+                "estack": "AssertionError: expected ' helloSimpleWorld' to equal 'helloSimpleWorld'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:129:45)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "-  helloSimpleWorld\n+ helloSimpleWorld\n"
+              },
+              "uuid": "23fdeb23-7072-4a6f-9bad-dd4c33ea80d4",
+              "parentUUID": "e964fb25-cef1-46cd-884a-d3223b0c6529",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "23fdeb23-7072-4a6f-9bad-dd4c33ea80d4"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "5113c2fe-c7b9-47c1-b177-43ef354b07c6",
+          "title": "Words with leading and trailing hyphenation to snake case",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
+          "file": "/test/camelCase.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "-hello-simple-world- -> helloSimpleWorld",
+              "fullTitle": "Words with leading and trailing hyphenation to snake case -hello-simple-world- -> helloSimpleWorld",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(camelCase('-hello-simple-world-')).equal('helloSimpleWorld')",
+              "err": {
+                "message": "AssertionError: expected ' helloSimpleWorld' to equal 'helloSimpleWorld'",
+                "estack": "AssertionError: expected ' helloSimpleWorld' to equal 'helloSimpleWorld'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:136:47)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "-  helloSimpleWorld\n+ helloSimpleWorld\n"
+              },
+              "uuid": "5e539cd1-bfbe-4937-9d50-07823c50ee33",
+              "parentUUID": "5113c2fe-c7b9-47c1-b177-43ef354b07c6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "5e539cd1-bfbe-4937-9d50-07823c50ee33"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "910295dd-a4c7-40b8-ae6a-c21bf7461095",
+          "title": "Words with redundant leading and trailing hyphenation to snake case",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js",
+          "file": "/test/camelCase.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "--hello-simple-world-- -> helloSimpleWorld",
+              "fullTitle": "Words with redundant leading and trailing hyphenation to snake case --hello-simple-world-- -> helloSimpleWorld",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(camelCase('--hello-simple-world--')).equal('helloSimpleWorld')",
+              "err": {
+                "message": "AssertionError: expected ' helloSimpleWorld' to equal 'helloSimpleWorld'",
+                "estack": "AssertionError: expected ' helloSimpleWorld' to equal 'helloSimpleWorld'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/camelCase.test.js:143:49)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "-  helloSimpleWorld\n+ helloSimpleWorld\n"
+              },
+              "uuid": "391cb299-055e-4bca-a153-68539b17bdaf",
+              "parentUUID": "910295dd-a4c7-40b8-ae6a-c21bf7461095",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "391cb299-055e-4bca-a153-68539b17bdaf"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "537f5dae-5836-4bea-bb9f-6e47938b29e4",
+          "title": "Empty array chunk",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js",
+          "file": "/test/chunkTest.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "[],1 -> []",
+              "fullTitle": "Empty array chunk [],1 -> []",
+              "timedOut": false,
+              "duration": 2,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(chunk([], 1)).to.deep.equal([])",
+              "err": {},
+              "uuid": "ee569d74-f06e-4b5c-b6bc-704eda519ad2",
+              "parentUUID": "537f5dae-5836-4bea-bb9f-6e47938b29e4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ee569d74-f06e-4b5c-b6bc-704eda519ad2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "8cbbdcd7-f1d4-42ea-b21e-52db5b185b3a",
+          "title": "Simple array chunk",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js",
+          "file": "/test/chunkTest.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "[1,2],1 -> [[1],[2]]",
+              "fullTitle": "Simple array chunk [1,2],1 -> [[1],[2]]",
+              "timedOut": false,
+              "duration": 1,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(chunk([1, 2], 1)).to.deep.equal([[1], [2]])",
+              "err": {
+                "message": "AssertionError: expected [ [ 2 ],  ] to deeply equal [ [ 1 ], [ 2 ] ]",
+                "estack": "AssertionError: expected [ [ 2 ],  ] to deeply equal [ [ 1 ], [ 2 ] ]\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js:17:38)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": " [\n   [\n+     1\n+   ]\n+   [\n     2\n   ]\n ]\n"
+              },
+              "uuid": "eccad460-b7ee-4423-ac2f-9ce2725861da",
+              "parentUUID": "8cbbdcd7-f1d4-42ea-b21e-52db5b185b3a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "eccad460-b7ee-4423-ac2f-9ce2725861da"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "87de1f8f-ef51-4046-8b81-9b15fff9ca32",
+          "title": "Char array chunk to size 1",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js",
+          "file": "/test/chunkTest.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "[a,b,c],1 -> [[a],[b],[c]]",
+              "fullTitle": "Char array chunk to size 1 [a,b,c],1 -> [[a],[b],[c]]",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(chunk(['a', 'b', 'c'], 1)).to.deep.equal([['a'], ['b'], ['c']])",
+              "err": {
+                "message": "AssertionError: expected [ [ 'c' ], ,  ] to deeply equal [ [ 'a' ], [ 'b' ], [ 'c' ] ]",
+                "estack": "AssertionError: expected [ [ 'c' ], ,  ] to deeply equal [ [ 'a' ], [ 'b' ], [ 'c' ] ]\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js:24:47)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": " [\n   [\n+     \"a\"\n+   ]\n+   [\n+     \"b\"\n+   ]\n+   [\n     \"c\"\n   ]\n ]\n"
+              },
+              "uuid": "3bff9bc9-ce3d-4367-b14b-9029d54d8068",
+              "parentUUID": "87de1f8f-ef51-4046-8b81-9b15fff9ca32",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "3bff9bc9-ce3d-4367-b14b-9029d54d8068"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "d269460f-2f78-46b5-ba00-8a31abef2b56",
+          "title": "Char array chunk to size 2",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js",
+          "file": "/test/chunkTest.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "[a,b,c,d],2 -> [[a,b],[c,d]]",
+              "fullTitle": "Char array chunk to size 2 [a,b,c,d],2 -> [[a,b],[c,d]]",
+              "timedOut": false,
+              "duration": 2,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(chunk(['a', 'b', 'c', 'd'], 2)).to.deep.equal([['a', 'b'], ['c', 'd']])",
+              "err": {
+                "message": "AssertionError: expected [ [ 'c', 'd' ],  ] to deeply equal [ [ 'a', 'b' ], [ 'c', 'd' ] ]",
+                "estack": "AssertionError: expected [ [ 'c', 'd' ],  ] to deeply equal [ [ 'a', 'b' ], [ 'c', 'd' ] ]\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js:31:52)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": " [\n   [\n+     \"a\"\n+     \"b\"\n+   ]\n+   [\n     \"c\"\n     \"d\"\n   ]\n ]\n"
+              },
+              "uuid": "9c9bef1d-9802-4105-bbf8-c7cbb422fb27",
+              "parentUUID": "d269460f-2f78-46b5-ba00-8a31abef2b56",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "9c9bef1d-9802-4105-bbf8-c7cbb422fb27"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 2,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "f7b91f86-c558-4253-88e0-ace01c6ab1fb",
+          "title": "Char array without residual",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js",
+          "file": "/test/chunkTest.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "[a,b,c,d,e,f],3 -> [[a,b,c],[d,e,f]]",
+              "fullTitle": "Char array without residual [a,b,c,d,e,f],3 -> [[a,b,c],[d,e,f]]",
+              "timedOut": false,
+              "duration": 2,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(chunk(['a', 'b', 'c', 'd', 'e', 'f'], 3)).to.deep.equal([['a', 'b', 'c'], ['d', 'e', 'f']])",
+              "err": {
+                "message": "AssertionError: expected [ [ 'd', 'e', 'f' ],  ] to deeply equal [ Array(2) ]",
+                "estack": "AssertionError: expected [ [ 'd', 'e', 'f' ],  ] to deeply equal [ Array(2) ]\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js:38:62)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": " [\n   [\n+     \"a\"\n+     \"b\"\n+     \"c\"\n+   ]\n+   [\n     \"d\"\n     \"e\"\n     \"f\"\n   ]\n"
+              },
+              "uuid": "c66c73e5-e898-44ab-a157-71cb335de8bd",
+              "parentUUID": "f7b91f86-c558-4253-88e0-ace01c6ab1fb",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "c66c73e5-e898-44ab-a157-71cb335de8bd"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 2,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "a100accc-4f47-445d-b868-a46b45c6516a",
+          "title": "Char array with residual",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js",
+          "file": "/test/chunkTest.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "[a,b,c,d,e],3 -> [[a,b,c],[d,e]]",
+              "fullTitle": "Char array with residual [a,b,c,d,e],3 -> [[a,b,c],[d,e]]",
+              "timedOut": false,
+              "duration": 2,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(chunk(['a', 'b', 'c', 'd', 'e'], 3)).to.deep.equal([['a', 'b', 'c'], ['d', 'e']])",
+              "err": {
+                "message": "AssertionError: expected [ [ 'd', 'e', undefined ],  ] to deeply equal [ [ 'a', 'b', 'c' ], [ 'd', 'e' ] ]",
+                "estack": "AssertionError: expected [ [ 'd', 'e', undefined ],  ] to deeply equal [ [ 'a', 'b', 'c' ], [ 'd', 'e' ] ]\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js:45:57)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": " [\n   [\n+     \"a\"\n+     \"b\"\n+     \"c\"\n+   ]\n+   [\n     \"d\"\n     \"e\"\n-     [undefined]\n   ]\n ]\n"
+              },
+              "uuid": "fdc7811b-2876-4ad5-926b-ee540a14ec8b",
+              "parentUUID": "a100accc-4f47-445d-b868-a46b45c6516a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "fdc7811b-2876-4ad5-926b-ee540a14ec8b"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 2,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "5a321269-b65f-4054-983e-ffb1b707abef",
+          "title": "Chunk size equal to array size",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js",
+          "file": "/test/chunkTest.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "[a,b,c,d,e],5 -> [a,b,c,d,e]",
+              "fullTitle": "Chunk size equal to array size [a,b,c,d,e],5 -> [a,b,c,d,e]",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(chunk(['a', 'b', 'c', 'd', 'e'], 5)).to.deep.equal([['a', 'b', 'c', 'd', 'e']])",
+              "err": {},
+              "uuid": "4240fd31-b3ac-40d0-956a-dff92526c747",
+              "parentUUID": "5a321269-b65f-4054-983e-ffb1b707abef",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4240fd31-b3ac-40d0-956a-dff92526c747"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "f1a9c016-f289-4ef7-bdb9-794641ed67ba",
+          "title": "Chunk size more than array size",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js",
+          "file": "/test/chunkTest.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "[a,b,c,d,e],6 -> [a,b,c,d,e]",
+              "fullTitle": "Chunk size more than array size [a,b,c,d,e],6 -> [a,b,c,d,e]",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(chunk(['a', 'b', 'c', 'd', 'e'], 6)).to.deep.equal([['a', 'b', 'c', 'd', 'e']])",
+              "err": {
+                "message": "AssertionError: expected [ Array(1) ] to deeply equal [ [ 'a', 'b', 'c', 'd', 'e' ] ]",
+                "estack": "AssertionError: expected [ Array(1) ] to deeply equal [ [ 'a', 'b', 'c', 'd', 'e' ] ]\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/chunkTest.test.js:60:57)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "     \"b\"\n     \"c\"\n     \"d\"\n     \"e\"\n-     [undefined]\n   ]\n ]\n"
+              },
+              "uuid": "49f855bb-27ae-49eb-884c-2cba53b523a2",
+              "parentUUID": "f1a9c016-f289-4ef7-bdb9-794641ed67ba",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "49f855bb-27ae-49eb-884c-2cba53b523a2"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "57658dcf-452e-4e3c-a444-1c5f8624c630",
+          "title": "Simple countBy test with empty object",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/countBy.test.js",
+          "file": "/test/countBy.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "[] -> {}",
+              "fullTitle": "Simple countBy test with empty object [] -> {}",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(countBy(users, value => value.active)).to.deep.equal({})",
+              "err": {},
+              "uuid": "b80e91ac-fa12-43ac-a47a-188eb9060de8",
+              "parentUUID": "57658dcf-452e-4e3c-a444-1c5f8624c630",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b80e91ac-fa12-43ac-a47a-188eb9060de8"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "aef04db9-0940-4626-a9e2-04e8644b1eac",
+          "title": "Simple countBy test with three values",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/countBy.test.js",
+          "file": "/test/countBy.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "[{ ... }] -> {\"false\": 1, \"true\": 2}",
+              "fullTitle": "Simple countBy test with three values [{ ... }] -> {\"false\": 1, \"true\": 2}",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(countBy(users, value => value.active)).to.deep.equal({ true: 2, false: 1 })",
+              "err": {
+                "message": "AssertionError: expected { true: 1, false: 0 } to deeply equal { true: 2, false: 1 }",
+                "estack": "AssertionError: expected { true: 1, false: 0 } to deeply equal { true: 2, false: 1 }\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/countBy.test.js:24:59)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": " {\n-   \"false\": 0\n-   \"true\": 1\n+   \"false\": 1\n+   \"true\": 2\n }\n"
+              },
+              "uuid": "39327f95-63eb-4b68-806e-048391b17781",
+              "parentUUID": "aef04db9-0940-4626-a9e2-04e8644b1eac",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "39327f95-63eb-4b68-806e-048391b17781"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "28502dd3-8b2a-49b7-888b-9f0f2469b7cc",
+          "title": "Simple countBy test with four values",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/countBy.test.js",
+          "file": "/test/countBy.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "[{ ... }] -> {\"false\": 1, \"true\": 3}",
+              "fullTitle": "Simple countBy test with four values [{ ... }] -> {\"false\": 1, \"true\": 3}",
+              "timedOut": false,
+              "duration": 1,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(countBy(users, value => value.active)).to.deep.equal({ true: 3, false: 1 })",
+              "err": {
+                "message": "AssertionError: expected { true: 2, false: 0 } to deeply equal { true: 3, false: 1 }",
+                "estack": "AssertionError: expected { true: 2, false: 0 } to deeply equal { true: 3, false: 1 }\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/countBy.test.js:37:59)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": " {\n-   \"false\": 0\n-   \"true\": 2\n+   \"false\": 1\n+   \"true\": 3\n }\n"
+              },
+              "uuid": "d50dd02e-3576-4cf6-b18d-896bc247fd4e",
+              "parentUUID": "28502dd3-8b2a-49b7-888b-9f0f2469b7cc",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "d50dd02e-3576-4cf6-b18d-896bc247fd4e"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "0ae0cea6-9144-4f40-9593-b91f5a954a28",
+          "title": "A countBy test with four equal values",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/countBy.test.js",
+          "file": "/test/countBy.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "[{ ... }] -> {\"true\": 4}",
+              "fullTitle": "A countBy test with four equal values [{ ... }] -> {\"true\": 4}",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(countBy(users, value => value.active)).to.deep.equal({ true: 4 })",
+              "err": {
+                "message": "AssertionError: expected { true: 3 } to deeply equal { true: 4 }",
+                "estack": "AssertionError: expected { true: 3 } to deeply equal { true: 4 }\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/countBy.test.js:50:59)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": " {\n-   \"true\": 3\n+   \"true\": 4\n }\n"
+              },
+              "uuid": "b94e4a16-84cc-4644-a5d4-688168dec076",
+              "parentUUID": "0ae0cea6-9144-4f40-9593-b91f5a954a28",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "b94e4a16-84cc-4644-a5d4-688168dec076"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "a877f017-c156-4aa6-abd5-cfd829fc6cf9",
+          "title": "A countBy test with four values and multiple attributes",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/countBy.test.js",
+          "file": "/test/countBy.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "[{ ... }] -> { 30: 2, 25: 1, 27: 1 }",
+              "fullTitle": "A countBy test with four values and multiple attributes [{ ... }] -> { 30: 2, 25: 1, 27: 1 }",
+              "timedOut": false,
+              "duration": 1,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(countBy(users, value => value.age)).to.deep.equal({ 30: 2, 25: 1, 27: 1 })",
+              "err": {
+                "message": "AssertionError: expected { '25': 0, '27': 0, '30': 1 } to deeply equal { '25': 1, '27': 1, '30': 2 }",
+                "estack": "AssertionError: expected { '25': 0, '27': 0, '30': 1 } to deeply equal { '25': 1, '27': 1, '30': 2 }\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/countBy.test.js:63:56)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": " {\n-   \"25\": 0\n-   \"27\": 0\n-   \"30\": 1\n+   \"25\": 1\n+   \"27\": 1\n+   \"30\": 2\n }\n"
+              },
+              "uuid": "d407915e-8e2c-4bfb-9893-21bc6aaeba7e",
+              "parentUUID": "a877f017-c156-4aa6-abd5-cfd829fc6cf9",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "d407915e-8e2c-4bfb-9893-21bc6aaeba7e"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "25ab0212-c72b-4af2-a62f-1afe4294268f",
+          "title": "Simple isBuffer test with null",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
+          "file": "/test/isBuffer.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "null -> true",
+              "fullTitle": "Simple isBuffer test with null null -> true",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isBuffer(null)).equal(false)",
+              "err": {},
+              "uuid": "e2166899-edef-4953-a4e8-6cf341eab11a",
+              "parentUUID": "25ab0212-c72b-4af2-a62f-1afe4294268f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e2166899-edef-4953-a4e8-6cf341eab11a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "781dc875-8492-4b2d-9141-c2e2063b91b3",
+          "title": "Simple isBuffer test with allocated null",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
+          "file": "/test/isBuffer.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Buffer.alloc(null) -> true",
+              "fullTitle": "Simple isBuffer test with allocated null Buffer.alloc(null) -> true",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(isBuffer(Buffer.alloc(null))).equal(false)",
+              "err": {
+                "message": "TypeError: The \"size\" argument must be of type number. Received null",
+                "estack": "TypeError [ERR_INVALID_ARG_TYPE]: The \"size\" argument must be of type number. Received null\n    at Function.alloc (node:buffer:360:3)\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js:17:28)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": null
+              },
+              "uuid": "8253141f-1c8c-4170-b743-e282ac9d8fc4",
+              "parentUUID": "781dc875-8492-4b2d-9141-c2e2063b91b3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "8253141f-1c8c-4170-b743-e282ac9d8fc4"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "943ac51b-e90c-4f06-9adc-c3b2d91b16a9",
+          "title": "Simple isBuffer test with string",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
+          "file": "/test/isBuffer.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test -> false",
+              "fullTitle": "Simple isBuffer test with string Test -> false",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isBuffer('Test')).equal(false)",
+              "err": {},
+              "uuid": "f758aa0f-756c-4da1-a5ca-4d3258cfd436",
+              "parentUUID": "943ac51b-e90c-4f06-9adc-c3b2d91b16a9",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f758aa0f-756c-4da1-a5ca-4d3258cfd436"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "fc9eb8fe-0078-4e20-89f5-b105b9438ce9",
+          "title": "Simple isBuffer test with int",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
+          "file": "/test/isBuffer.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "1 -> false",
+              "fullTitle": "Simple isBuffer test with int 1 -> false",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isBuffer(1)).equal(false)",
+              "err": {},
+              "uuid": "d829f803-59d4-4f33-835b-6315f7124d41",
+              "parentUUID": "fc9eb8fe-0078-4e20-89f5-b105b9438ce9",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d829f803-59d4-4f33-835b-6315f7124d41"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "41aba795-4f79-4c67-aa61-f147ee772cab",
+          "title": "Simple isBuffer test with number in buffer",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
+          "file": "/test/isBuffer.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Buffer.alloc(2) -> true",
+              "fullTitle": "Simple isBuffer test with number in buffer Buffer.alloc(2) -> true",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(isBuffer(Buffer.alloc(2))).equal(true)",
+              "err": {
+                "message": "AssertionError: expected false to equal true",
+                "estack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js:38:39)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "- false\n+ true\n"
+              },
+              "uuid": "f318b639-b36c-4557-8c99-7de19877164f",
+              "parentUUID": "41aba795-4f79-4c67-aa61-f147ee772cab",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "f318b639-b36c-4557-8c99-7de19877164f"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "d99aa764-a598-4a3b-bade-94271f718838",
+          "title": "isBuffer test with Uint8Array",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
+          "file": "/test/isBuffer.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "(new Uint8Array(2)) -> false",
+              "fullTitle": "isBuffer test with Uint8Array (new Uint8Array(2)) -> false",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isBuffer(new Uint8Array(2))).equal(false)",
+              "err": {},
+              "uuid": "92c2ec0d-d584-4a2e-a3ae-25dc47a98423",
+              "parentUUID": "d99aa764-a598-4a3b-bade-94271f718838",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "92c2ec0d-d584-4a2e-a3ae-25dc47a98423"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "77f951a9-2ac6-4ef6-bf1c-f78214113014",
+          "title": "isBuffer test with Int8Array",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
+          "file": "/test/isBuffer.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "(new Int8Array(2)) -> false",
+              "fullTitle": "isBuffer test with Int8Array (new Int8Array(2)) -> false",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isBuffer(new Int8Array(2))).equal(false)",
+              "err": {},
+              "uuid": "7e06e06b-c3be-4762-b5d7-70d2a5fb42a1",
+              "parentUUID": "77f951a9-2ac6-4ef6-bf1c-f78214113014",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7e06e06b-c3be-4762-b5d7-70d2a5fb42a1"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "6a077205-2ff5-4522-90b7-41b15b125320",
+          "title": "isBuffer test with Uint8ClampedArray",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
+          "file": "/test/isBuffer.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "(new Uint8ClampedArray(2)) -> false",
+              "fullTitle": "isBuffer test with Uint8ClampedArray (new Uint8ClampedArray(2)) -> false",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isBuffer(new Uint8ClampedArray(2))).equal(false)",
+              "err": {},
+              "uuid": "92e88e20-5fc4-4720-a3c2-7d409f31778b",
+              "parentUUID": "6a077205-2ff5-4522-90b7-41b15b125320",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "92e88e20-5fc4-4720-a3c2-7d409f31778b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "e56d3b8f-1e6b-4dbb-a651-12cc929c382c",
+          "title": "isBuffer test with Uint16Array",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
+          "file": "/test/isBuffer.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "(new Uint16Array(2)) -> false",
+              "fullTitle": "isBuffer test with Uint16Array (new Uint16Array(2)) -> false",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isBuffer(new Uint16Array(2))).equal(false)",
+              "err": {},
+              "uuid": "798aec01-e28a-4048-9060-d5980b80ad9e",
+              "parentUUID": "e56d3b8f-1e6b-4dbb-a651-12cc929c382c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "798aec01-e28a-4048-9060-d5980b80ad9e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "cf45ac3f-3840-4b23-8e17-380f056cf97d",
+          "title": "isBuffer test with Int32Array",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
+          "file": "/test/isBuffer.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "(new Int32Array(2)) -> false",
+              "fullTitle": "isBuffer test with Int32Array (new Int32Array(2)) -> false",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isBuffer(new Int32Array(2))).equal(false)",
+              "err": {},
+              "uuid": "724e139f-b185-46b1-860e-157874f3f1fa",
+              "parentUUID": "cf45ac3f-3840-4b23-8e17-380f056cf97d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "724e139f-b185-46b1-860e-157874f3f1fa"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "c282ebdb-a44f-431a-9cf1-6c2b09d20f58",
+          "title": "isBuffer test with ones as buffer values",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
+          "file": "/test/isBuffer.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "10, 1 -> true",
+              "fullTitle": "isBuffer test with ones as buffer values 10, 1 -> true",
+              "timedOut": false,
+              "duration": 2,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(isBuffer(Buffer.alloc(10, 1))).equal(true)",
+              "err": {
+                "message": "AssertionError: expected false to equal true",
+                "estack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js:80:43)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "- false\n+ true\n"
+              },
+              "uuid": "4c45c336-705c-4f3e-b49d-905cfd49beae",
+              "parentUUID": "c282ebdb-a44f-431a-9cf1-6c2b09d20f58",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "4c45c336-705c-4f3e-b49d-905cfd49beae"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 2,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "7a472934-13ad-4dd1-983a-4765f7f4ccf7",
+          "title": "isBuffer test with defined values",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js",
+          "file": "/test/isBuffer.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "[1,2,3] -> true",
+              "fullTitle": "isBuffer test with defined values [1,2,3] -> true",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(isBuffer(Buffer.from([1, 2, 3]))).equal(true)",
+              "err": {
+                "message": "AssertionError: expected false to equal true",
+                "estack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isBuffer.test.js:87:46)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "- false\n+ true\n"
+              },
+              "uuid": "e0f09260-e729-4ffa-a568-b00f8d47a4e8",
+              "parentUUID": "7a472934-13ad-4dd1-983a-4765f7f4ccf7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "e0f09260-e729-4ffa-a568-b00f8d47a4e8"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "4aa0526f-4ad9-4415-9415-86fbc7fe8e54",
+          "title": "Simple isEmpty test with null",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isEmpty.test.js",
+          "file": "/test/isEmpty.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "null -> true",
+              "fullTitle": "Simple isEmpty test with null null -> true",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isEmpty(null)).equal(true)",
+              "err": {},
+              "uuid": "e5536b6b-d19f-454d-8cfa-59514cc86581",
+              "parentUUID": "4aa0526f-4ad9-4415-9415-86fbc7fe8e54",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e5536b6b-d19f-454d-8cfa-59514cc86581"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "1487d253-f61d-475d-8829-e4305f4051bd",
+          "title": "Simple isEmpty test with int",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isEmpty.test.js",
+          "file": "/test/isEmpty.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "1 -> true",
+              "fullTitle": "Simple isEmpty test with int 1 -> true",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isEmpty(1)).equal(true)",
+              "err": {},
+              "uuid": "1a162072-4d3b-4cdd-b35b-d20d8611333a",
+              "parentUUID": "1487d253-f61d-475d-8829-e4305f4051bd",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1a162072-4d3b-4cdd-b35b-d20d8611333a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "194a2916-2662-4846-bfc2-8df81c057779",
+          "title": "Simple isEmpty test with char",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isEmpty.test.js",
+          "file": "/test/isEmpty.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "a -> falsee",
+              "fullTitle": "Simple isEmpty test with char a -> falsee",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isEmpty('a')).equal(false)",
+              "err": {},
+              "uuid": "9457e5f6-7179-4fc6-aa41-0e2295ab6903",
+              "parentUUID": "194a2916-2662-4846-bfc2-8df81c057779",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "9457e5f6-7179-4fc6-aa41-0e2295ab6903"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "44d21992-9cd0-4fb3-87c8-039b0f1c67ff",
+          "title": "Simple isEmpty test with empty char",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isEmpty.test.js",
+          "file": "/test/isEmpty.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "a -> falsee",
+              "fullTitle": "Simple isEmpty test with empty char a -> falsee",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isEmpty('')).equal(true)",
+              "err": {},
+              "uuid": "740789aa-32ce-44ef-bef7-5d8032f26193",
+              "parentUUID": "44d21992-9cd0-4fb3-87c8-039b0f1c67ff",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "740789aa-32ce-44ef-bef7-5d8032f26193"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "9c0cb1dd-6545-4995-9146-a2c3b700b783",
+          "title": "Simple isEmpty test with bool",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isEmpty.test.js",
+          "file": "/test/isEmpty.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "true -> true",
+              "fullTitle": "Simple isEmpty test with bool true -> true",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isEmpty(true)).equal(true)",
+              "err": {},
+              "uuid": "8903369a-2ffa-4282-abb4-c4db533f7ca2",
+              "parentUUID": "9c0cb1dd-6545-4995-9146-a2c3b700b783",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8903369a-2ffa-4282-abb4-c4db533f7ca2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "af02731d-7e54-4abd-a853-e6cab958fd6b",
+          "title": "isEmpty test with map",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isEmpty.test.js",
+          "file": "/test/isEmpty.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "{ a: 1 } -> false",
+              "fullTitle": "isEmpty test with map { a: 1 } -> false",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isEmpty({ a: 1 })).equal(false)",
+              "err": {},
+              "uuid": "7daa59a7-b1c8-483a-980b-87522c2ae6ce",
+              "parentUUID": "af02731d-7e54-4abd-a853-e6cab958fd6b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7daa59a7-b1c8-483a-980b-87522c2ae6ce"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "29278234-cd2d-47ad-9acc-ea11cce9b325",
+          "title": "isEmpty test with empty map",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isEmpty.test.js",
+          "file": "/test/isEmpty.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "{} -> true",
+              "fullTitle": "isEmpty test with empty map {} -> true",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isEmpty({ })).equal(true)",
+              "err": {},
+              "uuid": "dd19bb27-08fd-4258-b021-c0028a39d19b",
+              "parentUUID": "29278234-cd2d-47ad-9acc-ea11cce9b325",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "dd19bb27-08fd-4258-b021-c0028a39d19b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "4bc841ef-d8c4-4b9e-be3a-46815e3ea591",
+          "title": "isEmpty test with array",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isEmpty.test.js",
+          "file": "/test/isEmpty.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "[1,2] -> false",
+              "fullTitle": "isEmpty test with array [1,2] -> false",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isEmpty([1, 2])).equal(false)",
+              "err": {},
+              "uuid": "fb7f7c24-f063-486f-8782-217350223379",
+              "parentUUID": "4bc841ef-d8c4-4b9e-be3a-46815e3ea591",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fb7f7c24-f063-486f-8782-217350223379"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "21d90bb9-59c1-4b5d-9ae7-aad0cce0c5d4",
+          "title": "isEmpty test with empty array",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isEmpty.test.js",
+          "file": "/test/isEmpty.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "[] -> true",
+              "fullTitle": "isEmpty test with empty array [] -> true",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isEmpty([])).equal(true)",
+              "err": {},
+              "uuid": "d5cdce90-c011-4b0d-b7e7-cb37b864684b",
+              "parentUUID": "21d90bb9-59c1-4b5d-9ae7-aad0cce0c5d4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d5cdce90-c011-4b0d-b7e7-cb37b864684b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "7bc880b0-af91-46e3-a412-fa3c16cfd690",
+          "title": "Simple isTypedArray test with empty array",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isTypedArray.test.js",
+          "file": "/test/isTypedArray.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "[] -> false",
+              "fullTitle": "Simple isTypedArray test with empty array [] -> false",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isTypedArray([])).equal(false)",
+              "err": {},
+              "uuid": "6e11b53b-d01b-42d3-bafb-14efa88f9136",
+              "parentUUID": "7bc880b0-af91-46e3-a412-fa3c16cfd690",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6e11b53b-d01b-42d3-bafb-14efa88f9136"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "166f50fe-d25b-4be6-a17d-9187485ce80d",
+          "title": "isTypedArray test with Uint8Array array",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isTypedArray.test.js",
+          "file": "/test/isTypedArray.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Uint8Array(5) -> true",
+              "fullTitle": "isTypedArray test with Uint8Array array Uint8Array(5) -> true",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isTypedArray(new Uint8Array(5))).equal(true)",
+              "err": {},
+              "uuid": "7742ca29-3871-4b4e-82e9-7dd5c065ef8a",
+              "parentUUID": "166f50fe-d25b-4be6-a17d-9187485ce80d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7742ca29-3871-4b4e-82e9-7dd5c065ef8a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "7f330a41-46a6-4eff-ab9e-5ba73fa6fb95",
+          "title": "isTypedArray test with Float32Array array",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isTypedArray.test.js",
+          "file": "/test/isTypedArray.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Float32Array(5) -> true",
+              "fullTitle": "isTypedArray test with Float32Array array Float32Array(5) -> true",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isTypedArray(new Float32Array(5))).equal(true)",
+              "err": {},
+              "uuid": "7819d463-123f-4a42-b6eb-deb40fb8dc5c",
+              "parentUUID": "7f330a41-46a6-4eff-ab9e-5ba73fa6fb95",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7819d463-123f-4a42-b6eb-deb40fb8dc5c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "958648c9-d343-45cd-8892-82f256a1032d",
+          "title": "isTypedArray test with array",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/isTypedArray.test.js",
+          "file": "/test/isTypedArray.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "[a, b] -> false",
+              "fullTitle": "isTypedArray test with array [a, b] -> false",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(isTypedArray(['a', 'b'])).equal(false)",
+              "err": {},
+              "uuid": "2d7f532e-4823-41b6-9295-2a1fc4c6226a",
+              "parentUUID": "958648c9-d343-45cd-8892-82f256a1032d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2d7f532e-4823-41b6-9295-2a1fc4c6226a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "5d81bf97-0ce6-43aa-b04f-1f7efb136d42",
+          "title": "Memoize test with toString and int",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/memoize.test.js",
+          "file": "/test/memoize.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "ts(a) -> 3",
+              "fullTitle": "Memoize test with toString and int ts(a) -> 3",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "let a = 3\nconst ts = memoize(toString)\nts(a)\na = a + 1\nexpect(ts(a)).equal('3')",
+              "err": {
+                "message": "AssertionError: expected '4' to equal '3'",
+                "estack": "AssertionError: expected '4' to equal '3'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/memoize.test.js:44:19)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "- 4\n+ 3\n"
+              },
+              "uuid": "2615a61b-baf0-4b9d-bd63-5f44a10d5d3a",
+              "parentUUID": "5d81bf97-0ce6-43aa-b04f-1f7efb136d42",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "2615a61b-baf0-4b9d-bd63-5f44a10d5d3a"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "621b019e-d016-43e1-9ae5-96156e757d5c",
+          "title": "Memoize test with toString and array",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/memoize.test.js",
+          "file": "/test/memoize.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "ts(a) -> 3",
+              "fullTitle": "Memoize test with toString and array ts(a) -> 3",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const a = [1, 2, 3]\nconst ts = memoize(toString)\nts(a)\na[0] = 2\nexpect(ts(a)).equal('1,2,3')",
+              "err": {},
+              "uuid": "afdf8f1d-d135-4ea4-9ddb-ecc98ef6d724",
+              "parentUUID": "621b019e-d016-43e1-9ae5-96156e757d5c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "afdf8f1d-d135-4ea4-9ddb-ecc98ef6d724"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "25fe63ca-a58e-4bf8-98e5-63f1688cb8cb",
+          "title": "Memoize test with words",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/memoize.test.js",
+          "file": "/test/memoize.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "ts(a) -> [Mikko, Jukka]",
+              "fullTitle": "Memoize test with words ts(a) -> [Mikko, Jukka]",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "let a = 'Mikko, Jukka'\nconst ws = memoize(words)\nws(a)\na = a + ', Maija'\nexpect(ws(a)).to.deep.equal(['Mikko', 'Jukka'])",
+              "err": {
+                "message": "AssertionError: expected [ 'Mikko', 'Jukka', 'Maija' ] to deeply equal [ 'Mikko', 'Jukka' ]",
+                "estack": "AssertionError: expected [ 'Mikko', 'Jukka', 'Maija' ] to deeply equal [ 'Mikko', 'Jukka' ]\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/memoize.test.js:68:27)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": " [\n   \"Mikko\"\n   \"Jukka\"\n-   \"Maija\"\n ]\n"
+              },
+              "uuid": "cac200a1-2141-4afd-bbda-e731e28cbf08",
+              "parentUUID": "25fe63ca-a58e-4bf8-98e5-63f1688cb8cb",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "cac200a1-2141-4afd-bbda-e731e28cbf08"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "7093b81f-e5ca-4403-a5e7-3a69633b41f5",
+          "title": "Memoize test with reduce",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/memoize.test.js",
+          "file": "/test/memoize.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "rd(a, (sum, n) => sum + n, 0) -> 6",
+              "fullTitle": "Memoize test with reduce rd(a, (sum, n) => sum + n, 0) -> 6",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const a = [1, 5]\nconst rd = memoize(reduce)\nrd(a, (sum, n) => sum + n, 0)\na[0] = 5\nexpect(rd(a, (sum, n) => sum + n, 0)).equal(6)",
+              "err": {},
+              "uuid": "d1021da5-d7aa-42fc-9fd8-6748aeb1d6c4",
+              "parentUUID": "7093b81f-e5ca-4403-a5e7-3a69633b41f5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d1021da5-d7aa-42fc-9fd8-6748aeb1d6c4"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "98661ae3-3dc4-437a-85da-be078ca49ca5",
+          "title": "Memoize test with eq",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/memoize.test.js",
+          "file": "/test/memoize.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "rd(a, (sum, n) => sum + n, 0) -> 6",
+              "fullTitle": "Memoize test with eq rd(a, (sum, n) => sum + n, 0) -> 6",
+              "timedOut": false,
+              "duration": 1,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "let a = 1\nconst b = 1\nconst e = memoize(eq)\ne(a, b)\na = 2\nexpect(e(a, b)).equal(true)",
+              "err": {
+                "message": "AssertionError: expected false to equal true",
+                "estack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/memoize.test.js:93:21)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "- false\n+ true\n"
+              },
+              "uuid": "27f8991b-132d-4a4f-b86f-cc4fed13ceee",
+              "parentUUID": "98661ae3-3dc4-437a-85da-be078ca49ca5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "27f8991b-132d-4a4f-b86f-cc4fed13ceee"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "bd53e4bd-5eb3-45ad-88fd-928359ade738",
+          "title": "Simple toInteger test with null",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
+          "file": "/test/toInteger.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "null -> 0",
+              "fullTitle": "Simple toInteger test with null null -> 0",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toInteger(null)).equal(0)",
+              "err": {},
+              "uuid": "ac986c0b-4ebe-426e-b2df-320f116cac82",
+              "parentUUID": "bd53e4bd-5eb3-45ad-88fd-928359ade738",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ac986c0b-4ebe-426e-b2df-320f116cac82"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "9f1a6c81-cbe4-40c3-a90a-d42f62d8cad2",
+          "title": "Simple toInteger test with 1",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
+          "file": "/test/toInteger.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "1 -> 1",
+              "fullTitle": "Simple toInteger test with 1 1 -> 1",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toInteger(1)).equal(1)",
+              "err": {},
+              "uuid": "fe2b1785-d793-41ef-a831-84a88f424454",
+              "parentUUID": "9f1a6c81-cbe4-40c3-a90a-d42f62d8cad2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fe2b1785-d793-41ef-a831-84a88f424454"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "6e611b76-4297-41e7-8180-e1b83e0ea4d6",
+          "title": "Simple toInteger test with -1",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
+          "file": "/test/toInteger.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "-1 -> -1",
+              "fullTitle": "Simple toInteger test with -1 -1 -> -1",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toInteger(-1)).equal(-1)",
+              "err": {},
+              "uuid": "aaabfe48-9415-49bd-b4d1-5ba64551a961",
+              "parentUUID": "6e611b76-4297-41e7-8180-e1b83e0ea4d6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "aaabfe48-9415-49bd-b4d1-5ba64551a961"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "3de57a3e-0863-4eaa-a2c0-9e1bc5203a13",
+          "title": "Simple toInteger test with 0",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
+          "file": "/test/toInteger.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "0 -> 0",
+              "fullTitle": "Simple toInteger test with 0 0 -> 0",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toInteger(0)).equal(0)",
+              "err": {},
+              "uuid": "c010b316-a5b8-4d95-8d60-80fedfee5df7",
+              "parentUUID": "3de57a3e-0863-4eaa-a2c0-9e1bc5203a13",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c010b316-a5b8-4d95-8d60-80fedfee5df7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "63d1e33b-71a1-4f14-a946-a7d429273627",
+          "title": "toInteger test with inf",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
+          "file": "/test/toInteger.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Inf -> 1.7976931348623157e+308",
+              "fullTitle": "toInteger test with inf Inf -> 1.7976931348623157e+308",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toInteger(Infinity)).equal(1.7976931348623157e+308)",
+              "err": {},
+              "uuid": "46332961-0673-48a1-8985-9b5f6e7ac1f3",
+              "parentUUID": "63d1e33b-71a1-4f14-a946-a7d429273627",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "46332961-0673-48a1-8985-9b5f6e7ac1f3"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "d79a96d8-99a9-4c70-921e-6bd7cbb93496",
+          "title": "toInteger test with Number.MIN_VALUE",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
+          "file": "/test/toInteger.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Number.MIN_VALUE -> 0",
+              "fullTitle": "toInteger test with Number.MIN_VALUE Number.MIN_VALUE -> 0",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toInteger(Number.MIN_VALUE)).equal(0)",
+              "err": {},
+              "uuid": "6590ce41-71ae-44a5-877a-ce43a42592de",
+              "parentUUID": "d79a96d8-99a9-4c70-921e-6bd7cbb93496",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6590ce41-71ae-44a5-877a-ce43a42592de"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "01cbc53f-064f-4aca-9436-4000ebe697bd",
+          "title": "toInteger test with decimals 1",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
+          "file": "/test/toInteger.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "3.9 -> 3",
+              "fullTitle": "toInteger test with decimals 1 3.9 -> 3",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toInteger(3.9)).equal(3)",
+              "err": {},
+              "uuid": "b5629718-803e-4af1-8960-e7609a810bb6",
+              "parentUUID": "01cbc53f-064f-4aca-9436-4000ebe697bd",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b5629718-803e-4af1-8960-e7609a810bb6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "e362a98b-3ea5-43b5-92f2-a94bee49284e",
+          "title": "toInteger test with decimals 2",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
+          "file": "/test/toInteger.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "3.1 -> 3",
+              "fullTitle": "toInteger test with decimals 2 3.1 -> 3",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toInteger(3.1)).equal(3)",
+              "err": {},
+              "uuid": "badbd952-78eb-464e-8b49-77bdb020401f",
+              "parentUUID": "e362a98b-3ea5-43b5-92f2-a94bee49284e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "badbd952-78eb-464e-8b49-77bdb020401f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "bcf95313-b636-4d6d-97ec-181eaf586793",
+          "title": "toInteger test with decimal string 1",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
+          "file": "/test/toInteger.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "3.9 -> 3",
+              "fullTitle": "toInteger test with decimal string 1 3.9 -> 3",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toInteger('3.9')).equal(3)",
+              "err": {},
+              "uuid": "e44a7dda-65d9-4a51-a351-a079f18a8fd9",
+              "parentUUID": "bcf95313-b636-4d6d-97ec-181eaf586793",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e44a7dda-65d9-4a51-a351-a079f18a8fd9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "b7be7162-3ab6-4b56-9df8-f0f1581f8dee",
+          "title": "toInteger test with decimal string 2",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
+          "file": "/test/toInteger.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "3.1 -> 3",
+              "fullTitle": "toInteger test with decimal string 2 3.1 -> 3",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toInteger('3.1')).equal(3)",
+              "err": {},
+              "uuid": "5f6bf584-55d1-40f6-ade4-f5336472d8d0",
+              "parentUUID": "b7be7162-3ab6-4b56-9df8-f0f1581f8dee",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5f6bf584-55d1-40f6-ade4-f5336472d8d0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "c51e32a8-f531-446f-aed2-296ad74df38a",
+          "title": "toInteger test with negative decimal string",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
+          "file": "/test/toInteger.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "3.1 -> 3",
+              "fullTitle": "toInteger test with negative decimal string 3.1 -> 3",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toInteger('-3.1')).equal(-3)",
+              "err": {},
+              "uuid": "3bf5fd87-9e5e-4b87-9f43-51321826c07e",
+              "parentUUID": "c51e32a8-f531-446f-aed2-296ad74df38a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3bf5fd87-9e5e-4b87-9f43-51321826c07e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "bcfc9958-beb7-4590-a0d9-673b8f4839a3",
+          "title": "toInteger test with integer string",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
+          "file": "/test/toInteger.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "3 -> 3",
+              "fullTitle": "toInteger test with integer string 3 -> 3",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toInteger('3')).equal(3)",
+              "err": {},
+              "uuid": "000aa691-fdd1-4b63-8153-dbb319cb8224",
+              "parentUUID": "bcfc9958-beb7-4590-a0d9-673b8f4839a3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "000aa691-fdd1-4b63-8153-dbb319cb8224"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "5f3d1a2a-e4e7-4be6-8c44-06e81b6ea1e3",
+          "title": "toInteger test with integer NaN",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toInteger.test.js",
+          "file": "/test/toInteger.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "NaN -> 0",
+              "fullTitle": "toInteger test with integer NaN NaN -> 0",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toInteger(NaN)).equal(0)",
+              "err": {},
+              "uuid": "8eee00e9-2a6f-4a16-9e25-c8abcb967a84",
+              "parentUUID": "5f3d1a2a-e4e7-4be6-8c44-06e81b6ea1e3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8eee00e9-2a6f-4a16-9e25-c8abcb967a84"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "37e9df4d-6662-4014-8852-04baab59570b",
+          "title": "Simple toString test with integer",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js",
+          "file": "/test/toString.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "3 -> 3",
+              "fullTitle": "Simple toString test with integer 3 -> 3",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toString(3)).equal('3')",
+              "err": {},
+              "uuid": "a665a592-34a9-483d-a565-e8b3f8f77a97",
+              "parentUUID": "37e9df4d-6662-4014-8852-04baab59570b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a665a592-34a9-483d-a565-e8b3f8f77a97"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "a0dd4852-6d32-47c0-a261-f0ac0222dcd8",
+          "title": "Simple toString test with decimal",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js",
+          "file": "/test/toString.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "-3 -> -3",
+              "fullTitle": "Simple toString test with decimal -3 -> -3",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toString(-3)).equal('-3')",
+              "err": {},
+              "uuid": "5ab845cd-7332-4e4e-8220-9fc468c22c97",
+              "parentUUID": "a0dd4852-6d32-47c0-a261-f0ac0222dcd8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5ab845cd-7332-4e4e-8220-9fc468c22c97"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "b0707bd0-0dc5-4ceb-9055-6b734e42051c",
+          "title": "toString test with negative decimal",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js",
+          "file": "/test/toString.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "-3.1 -> -3.1",
+              "fullTitle": "toString test with negative decimal -3.1 -> -3.1",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(toString(-3)).equal('-3.1')",
+              "err": {
+                "message": "AssertionError: expected '-3' to equal '-3.1'",
+                "estack": "AssertionError: expected '-3' to equal '-3.1'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js:24:26)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "- -3\n+ -3.1\n"
+              },
+              "uuid": "b52f7dd5-ed11-44cd-b9e7-b230ea3b8cd2",
+              "parentUUID": "b0707bd0-0dc5-4ceb-9055-6b734e42051c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "b52f7dd5-ed11-44cd-b9e7-b230ea3b8cd2"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "fc526e39-a909-4699-84e1-a5b1847757a9",
+          "title": "toString test with null",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js",
+          "file": "/test/toString.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "null -> ",
+              "fullTitle": "toString test with null null -> ",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toString(null)).equal('null')",
+              "err": {},
+              "uuid": "2df4fbd3-73a5-4324-a25d-b6e7cf139446",
+              "parentUUID": "fc526e39-a909-4699-84e1-a5b1847757a9",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2df4fbd3-73a5-4324-a25d-b6e7cf139446"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "d6bd8783-0ca6-4b15-8db6-d768bc4543a8",
+          "title": "toString test with inf",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js",
+          "file": "/test/toString.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Infinity -> Infinity",
+              "fullTitle": "toString test with inf Infinity -> Infinity",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toString(Infinity)).equal('Infinity')",
+              "err": {},
+              "uuid": "334b169f-4723-4093-97b1-c336c774e7de",
+              "parentUUID": "d6bd8783-0ca6-4b15-8db6-d768bc4543a8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "334b169f-4723-4093-97b1-c336c774e7de"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "5d15f869-d99b-4105-ad6e-b3cf22f1928f",
+          "title": "toString test with inf",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js",
+          "file": "/test/toString.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Infinity -> Infinity",
+              "fullTitle": "toString test with inf Infinity -> Infinity",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toString(Infinity)).equal('Infinity')",
+              "err": {},
+              "uuid": "d9b559b9-357d-42a4-a001-f978a52f9ae6",
+              "parentUUID": "5d15f869-d99b-4105-ad6e-b3cf22f1928f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d9b559b9-357d-42a4-a001-f978a52f9ae6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "86f75dec-948a-4d7e-89c2-08fd7f5c0a62",
+          "title": "toString test with array",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js",
+          "file": "/test/toString.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "[-1,0,1] -> -1,0,1",
+              "fullTitle": "toString test with array [-1,0,1] -> -1,0,1",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toString([-1, 0, 1])).equal('-1,0,1')",
+              "err": {},
+              "uuid": "64360deb-7016-444b-95b2-e2ceb89be391",
+              "parentUUID": "86f75dec-948a-4d7e-89c2-08fd7f5c0a62",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "64360deb-7016-444b-95b2-e2ceb89be391"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "d7de223a-5f10-4af4-8103-ed693e059d26",
+          "title": "toString test with string",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js",
+          "file": "/test/toString.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "-1,0,1 -> -1,0,1",
+              "fullTitle": "toString test with string -1,0,1 -> -1,0,1",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toString('-1,0,1')).equal('-1,0,1')",
+              "err": {},
+              "uuid": "4829167b-8bef-48f6-a8dc-368818ad0407",
+              "parentUUID": "d7de223a-5f10-4af4-8103-ed693e059d26",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4829167b-8bef-48f6-a8dc-368818ad0407"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "2ccac4a8-4832-4b14-a5d3-ba0750b28dbf",
+          "title": "toString test with bool",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js",
+          "file": "/test/toString.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "true -> true",
+              "fullTitle": "toString test with bool true -> true",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(toString(true)).equal('true')",
+              "err": {},
+              "uuid": "9928949e-f552-4ce7-81af-32cef21c3630",
+              "parentUUID": "2ccac4a8-4832-4b14-a5d3-ba0750b28dbf",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "9928949e-f552-4ce7-81af-32cef21c3630"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "8f9f0323-a08f-480a-9d8f-fc7a2b6ccdda",
+          "title": "toString test with symbol",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js",
+          "file": "/test/toString.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "x -> x",
+              "fullTitle": "toString test with symbol x -> x",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(toString(x)).equal('x')",
+              "err": {
+                "message": "AssertionError: expected 'Symbol(x)' to equal 'x'",
+                "estack": "AssertionError: expected 'Symbol(x)' to equal 'x'\n    at Context.<anonymous> (file:///home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/toString.test.js:74:25)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": "- Symbol(x)\n+ x\n"
+              },
+              "uuid": "2bb8a327-36bc-4964-8424-87246c9e94e3",
+              "parentUUID": "8f9f0323-a08f-480a-9d8f-fc7a2b6ccdda",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "2bb8a327-36bc-4964-8424-87246c9e94e3"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "c944a884-726f-456a-a6ed-023f6c87875f",
+          "title": "Simple words test with one word",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/words.test.js",
+          "file": "/test/words.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Mikko -> [Mikko]",
+              "fullTitle": "Simple words test with one word Mikko -> [Mikko]",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(words('Mikko')).to.deep.equal(['Mikko'])",
+              "err": {},
+              "uuid": "02397cf9-cf0d-4684-9a6c-027e749bbb2f",
+              "parentUUID": "c944a884-726f-456a-a6ed-023f6c87875f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "02397cf9-cf0d-4684-9a6c-027e749bbb2f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "9c497455-9435-4f7c-a4eb-379170a1b254",
+          "title": "Simple words test with two words",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/words.test.js",
+          "file": "/test/words.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Mikko, Jukka -> [Mikko, Jukka]",
+              "fullTitle": "Simple words test with two words Mikko, Jukka -> [Mikko, Jukka]",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(words('Mikko, Jukka')).to.deep.equal(['Mikko', 'Jukka'])",
+              "err": {},
+              "uuid": "fb9d2436-d146-4d53-ab77-5df3c20ac46d",
+              "parentUUID": "9c497455-9435-4f7c-a4eb-379170a1b254",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fb9d2436-d146-4d53-ab77-5df3c20ac46d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "251d95ba-ffb7-4e86-b659-5b441122c62f",
+          "title": "Simple words test with three words",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/words.test.js",
+          "file": "/test/words.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Mikko, Jukka & Maija -> [Mikko, Jukka, Maija]",
+              "fullTitle": "Simple words test with three words Mikko, Jukka & Maija -> [Mikko, Jukka, Maija]",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(words('Mikko, Jukka & Maija')).to.deep.equal(['Mikko', 'Jukka', 'Maija'])",
+              "err": {},
+              "uuid": "1b3da725-d72d-4a5f-b015-41376c0167a2",
+              "parentUUID": "251d95ba-ffb7-4e86-b659-5b441122c62f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1b3da725-d72d-4a5f-b015-41376c0167a2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "c4bec39c-02f3-4e18-b489-fc832c2e846b",
+          "title": "Simple words test with three words, include and sign",
+          "fullFile": "/home/travis/build/gitranes/COMP.SE.200-2021-2022-1/test/words.test.js",
+          "file": "/test/words.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Mikko, Jukka & Maija , /[^, ]+/g -> [Mikko, Jukka, &, Maija]",
+              "fullTitle": "Simple words test with three words, include and sign Mikko, Jukka & Maija , /[^, ]+/g -> [Mikko, Jukka, &, Maija]",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(words('Mikko, Jukka & Maija', /[^, ]+/g)).to.deep.equal(['Mikko', 'Jukka', '&', 'Maija'])",
+              "err": {},
+              "uuid": "df6f5f1b-05df-464e-9b5d-e5d0239afbb5",
+              "parentUUID": "c4bec39c-02f3-4e18-b489-fc832c2e846b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "df6f5f1b-05df-464e-9b5d-e5d0239afbb5"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "9.1.3"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.0.1"
+    }
+  }
+}
