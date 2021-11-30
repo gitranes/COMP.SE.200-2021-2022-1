@@ -17,4 +17,5 @@ jobs:
       deploy:
         provider: pages:git
         token: $GITHUB_TOKEN
+        local_dir: mochawesome-report
         edge: true
