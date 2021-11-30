@@ -4,18 +4,15 @@ dist: focal
 language: node_js
 node_js:
   - "lts/*" # Latest LTS Node.js version
-env:
-  global:
-    - COVERALLS_PARALLEL=true
 jobs:
   include:
+    - stage: "test reports"
     - name: "mochaawesome report"
       env:
         # github-pages only recognizes index.html
         - MOCHAWESOME_REPORTFILENAME=index.html
 
-      after_install:
-        npm install --no-save mochawesome
+      after_install: npm install --no-save mochawesome
 
       # tests are ok to fail as this only generates the html report
       script: npm test -- --reporter mochawesome || true
@@ -32,13 +29,8 @@ jobs:
     # c8 generates the lcov coverage files, which coveralls script passes to
     # coveralls.io
     - name: "coveralls"
-      after_install:
-        npm install --no-save coveralls
-
+      after_install: npm install --no-save coveralls
       script:
       # Failing tests should not fail coverage
       - ./node_modules/.bin/c8 --reporter=lcovonly mocha || true
       - ./node_modules/.bin/coveralls -v < coverage/lcov.info
-
-      notifications:
-        webhooks: https://coveralls.io/webhook
