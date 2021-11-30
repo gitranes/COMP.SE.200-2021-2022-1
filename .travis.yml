@@ -1,14 +1,19 @@
+# Newest ubuntu
+os: linux
+dist: focal
 language: node_js
 node_js:
-  - 'lts/*' # Latest LTS Node.js version
-script:
-  - npm test -- --reporter mochawesome
-# Deploy mochawesome HTML to github pages
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  keep_history: true
-  local_dir: mochawesome-report
-  on:
-    branch: main
+  - "lts/*" # Latest LTS Node.js version
+jobs:
+  include:
+    - stage: "tests"
+      script: npm test
+
+    # mochawesome is allowed to fail, as it only generates the report
+    - script: npm test -- --reporter mochawesome || true
+      name: "mochaawesome report"
+      # Deploy mochawesome HTML to github pages
+      deploy:
+        provider: pages:git
+        token: $GITHUB_TOKEN
+        edge: true
