@@ -6,13 +6,16 @@
   "type": "module",
   "scripts": {
     "test": "mocha",
-    "coverage": "c8 mocha"
+    "coverage": "c8 mocha",
+    "c8": "c8",
+    "coveralls": "coveralls"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "c8": "^7.10.0",
     "chai": "^4.3.4",
+    "coveralls": "^3.1.1",
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.2",

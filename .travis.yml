@@ -4,6 +4,9 @@ dist: focal
 language: node_js
 node_js:
   - "lts/*" # Latest LTS Node.js version
+env:
+  global:
+    - COVERALLS_PARALLEL=true
 jobs:
   include:
     - stage: "tests"
@@ -24,3 +27,10 @@ jobs:
         edge: true
         on:
           branch: main # default is still "master" with travis CI :D
+
+      - script:
+        - npm c8 -- --reporter=lcovonly mocha || true
+        - npm run coveralls -- < coverage/lcov.info
+        name: "coveralls"
+        notifications:
+          webhooks: https://coveralls.io/webhook
