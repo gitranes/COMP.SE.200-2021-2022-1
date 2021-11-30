@@ -33,7 +33,7 @@ jobs:
     - script:
       # Failing tests should not fail coverage
       - npm run c8 -- --reporter=lcovonly mocha || true
-      - npm run coveralls -- < coverage/lcov.info
+      - npm run coveralls -- -v < coverage/lcov.info
       name: "coveralls"
       notifications:
         webhooks: https://coveralls.io/webhook

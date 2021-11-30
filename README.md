@@ -6,7 +6,7 @@
 [![Coverage Status](
   https://coveralls.io/repos/github/gitranes/COMP.SE.200-2021-2022-1/badge.svg?branch=main
   )](https://coveralls.io/github/gitranes/COMP.SE.200-2021-2022-1?branch=main)
-🧪📑[Full test report](https://gitranes.github.io/COMP.SE.200-2021-2022-1/)
+[🧪📑Full test report](https://gitranes.github.io/COMP.SE.200-2021-2022-1/)
 
 
 This is a project repository for the COMP.SE.200-2021-2022-1 Software testing
