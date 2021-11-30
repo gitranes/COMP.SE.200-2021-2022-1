@@ -1,4 +1,4 @@
-# Newest ubuntu
+# Latest ubuntu
 os: linux
 dist: focal
 language: node_js
@@ -13,23 +13,26 @@ jobs:
     - script: npm test
       name: "npm test"
 
-    # mochawesome is allowed to fail, as it only generates the report
+    # tests are ok to fail as this only generates the html report
     - script: npm test -- --reporter mochawesome || true
       name: "mochaawesome report"
       env:
-        # github pages only recognizes index.html
+        # github-pages only recognizes index.html
         - MOCHAWESOME_REPORTFILENAME=index.html
-      # Deploy mochawesome HTML to github pages
+      # Deploy mochawesome HTML to the repo's github pages
       deploy:
         provider: pages:git
         token: $GITHUB_TOKEN
-        local_dir: mochawesome-report
+        local_dir: mochawesome-report # only the contents of mochwesome
         edge: true
         on:
-          branch: main # default is still "master" with travis CI :D
+          branch: main # default is still "master" with travis CI :(
 
+    # c8 generates the lcov coverage files, which coveralls script passes to
+    # coveralls.io
     - script:
-      - npm c8 -- --reporter=lcovonly mocha || true
+      # Failing tests should not fail coverage
+      - npm run c8 -- --reporter=lcovonly mocha || true
       - npm run coveralls -- < coverage/lcov.info
       name: "coveralls"
       notifications:
