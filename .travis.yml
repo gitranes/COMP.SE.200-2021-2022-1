@@ -6,13 +6,13 @@ node_js:
   - "lts/*" # Latest LTS Node.js version
 jobs:
   include:
-    - stage: "test reports"
+    - stage: test_reports
     - name: "mochaawesome report"
       env:
         # github-pages only recognizes index.html
         - MOCHAWESOME_REPORTFILENAME=index.html
 
-      after_install: npm install --no-save mochawesome
+      before_install: npm install --no-save mochawesome
 
       # tests are ok to fail as this only generates the html report
       script: npm test -- --reporter mochawesome || true
@@ -29,7 +29,7 @@ jobs:
     # c8 generates the lcov coverage files, which coveralls script passes to
     # coveralls.io
     - name: "coveralls"
-      after_install: npm install --no-save coveralls
+      before_install: npm install --no-save coveralls
       script:
       # Failing tests should not fail coverage
       - ./node_modules/.bin/c8 --reporter=lcovonly mocha || true
