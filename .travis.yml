@@ -1,3 +1,5 @@
 language: node_js
 node_js:
   - 'lts/*' # Latest LTS Node.js version
+script:
+  - npm test -- --reporter mochawesome
