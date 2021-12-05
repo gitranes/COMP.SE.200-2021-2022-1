@@ -5,22 +5,22 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "args": [
-                "-u",
-                "bdd",
-                "--timeout",
-                "999999",
-                "--colors",
-                "${workspaceFolder}/test"
-            ],
-            "internalConsoleOptions": "openOnSessionStart",
-            "name": "Mocha Tests",
-            "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
-            "request": "launch",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "type": "pwa-node"
+          "request": "launch",
+          "type": "node",
+          "program": "${workspaceFolder}/node_modules/mocha/bin/mocha",
+          "args": [
+            "-u",
+            "bdd",
+            "--timeout",
+            "999999",
+            "--colors",
+            "${relativeFile}"
+          ],
+          "internalConsoleOptions": "neverOpen",
+          "name": "Mocha file",
+          "skipFiles": [
+            "<node_internals>/**"
+          ],
         }
     ]
 }

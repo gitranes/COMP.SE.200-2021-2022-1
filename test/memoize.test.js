@@ -8,47 +8,41 @@ import eq from '../src/eq.js'
 import { expect } from 'chai'
 import { describe, it } from 'mocha'
 
-/*
-Example:
-const values = memoize(values)
-values(object)
-// => [1, 2]
+describe('Memoize test with null and null', () => {
+  it('throw TypeError', () => {
+    expect(() => memoize(null, null)).to.throw('Expected a function')
+  })
+})
 
-values(other)
-// => [3, 4]
+describe('Memoize test with simple resolver', () => {
+  it('ts() -> 1', () => {
+    const ts = memoize(() => { return 1 }, () => {})
+    ts()
+    expect(ts()).to.equal(1)
+  })
+})
 
-object.a = 2
-values(object)
-// => [1, 2]
+describe('Memoize pre-set null cache', () => {
+  it('ts() -> 1', () => {
+    memoize.Cache = null
+    const ts = memoize(() => { return 1 })
+    ts()
+    expect(ts()).to.equal(1)
+  })
+})
 
-// Modify the result cache.
-values.cache.set(object, ['a', 'b'])
-values(object)
-// => ['a', 'b']
-
-// Replace `memoize.Cache`.
-memoize.Cache = WeakMap
-*/
-
-// Little unsure with this one:
-// Does the function require that the argument changed is const?
-
-// Doesn't work
 describe('Memoize test with toString and int', () => {
-// expect
-  it('ts(a) -> 3', () => {
+  it('ts(a) -> 4', () => {
     let a = 3
     const ts = memoize(toString)
     ts(a)
     a = a + 1
-    expect(ts(a)).equal('3')
+    expect(ts(a)).equal('4')
   })
 })
 
-// Works
 describe('Memoize test with toString and array', () => {
-  // expect
-  it('ts(a) -> 3', () => {
+  it('ts([2, 2, 3]) -> "1,2,3"', () => {
     const a = [1, 2, 3]
     const ts = memoize(toString)
     ts(a)
@@ -59,19 +53,17 @@ describe('Memoize test with toString and array', () => {
 
 // Doesn't work
 describe('Memoize test with words', () => {
-  // expect
-  it('ts(a) -> [Mikko, Jukka]', () => {
+  it('ts(a) -> [Mikko, Jukka, Maija]', () => {
     let a = 'Mikko, Jukka'
     const ws = memoize(words)
     ws(a)
     a = a + ', Maija'
-    expect(ws(a)).to.deep.equal(['Mikko', 'Jukka'])
+    expect(ws(a)).to.deep.equal(['Mikko', 'Jukka', 'Maija'])
   })
 })
 
 // Works
 describe('Memoize test with reduce', () => {
-  // expect
   it('rd(a, (sum, n) => sum + n, 0) -> 6', () => {
     const a = [1, 5]
     const rd = memoize(reduce)
@@ -83,13 +75,12 @@ describe('Memoize test with reduce', () => {
 
 // Doesn't work
 describe('Memoize test with eq', () => {
-  // expect
-  it('rd(a, (sum, n) => sum + n, 0) -> 6', () => {
+  it('eq(1, 1); eq(2, 1) -> false', () => {
     let a = 1
     const b = 1
     const e = memoize(eq)
     e(a, b)
     a = 2
-    expect(e(a, b)).equal(true)
+    expect(e(a, b)).equal(false)
   })
 })
