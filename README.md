@@ -20,7 +20,6 @@ implements Travis CI with several testing related features.
 
 Prerequisites:
   - Node.js with npm
-  - Visual Studio Code (recommended)
 
 Running npm:
 ```bash
