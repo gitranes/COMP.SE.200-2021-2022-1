@@ -31,4 +31,17 @@ npm test
 
 ## Travis CI
 
-TODO
+Currently, the Travis CI handles building, testing and test reporting by
+integrating `npm`, `npm test`, `mocha`, `mochawesome`, `c8` and `coveralls`.
+The basic procedure of the pipeline goes like this:
+
+ - Install dependencies
+ - Job #1 runs the tests
+ - Job #2 runs the tests, ignores failures and reports with `mochawesome`
+   - Job #2 sends the HTML report back to `gh-pages` branch in our github.
+ - Job #3 Runs `c8` with `mocha` to generate the lcov files.
+   - Sends the coverage results to `coveralls` using `node-coveralls` script.
+
+The pipeline results can be seen at the top of this page. The first link is
+for the pipeline itself, the second is for our coveralls page, and the third
+is for the `mochawesome`'s test report.
